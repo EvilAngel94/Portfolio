@@ -18,6 +18,7 @@
 		<junit.version>4.12</junit.version>
 		<spring.version>5.2.0.RELEASE</spring.version>
 		<jstl.api.version>1.2</jstl.api.version>
+		<log4j.version>2.5</log4j.version>
 	</properties>
 
 	<dependencies>
@@ -34,7 +35,7 @@
 			<version>${jstl.api.version}</version>
 		</dependency>
 
-		<!-- Spring configuratie -->
+		<!-- Spring dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -61,6 +62,17 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<!-- Log dependencies -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
 
 		<!-- Test dependencies -->
 		<dependency>

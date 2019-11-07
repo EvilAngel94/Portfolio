@@ -19,6 +19,7 @@ public class DispatcherServletInitializer extends AbstractAnnotationConfigDispat
 		return  new Class[] { WebConfig.class };
 	}
 
+	/** This method helps to properly configure the url's */
 	@Override
 	protected String[] getServletMappings() {
 		return new String[] { "/" };
