@@ -5,9 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Air &mdash; Free Website Template, Free HTML5 Template by
-	freehtml5.co</title>
-<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+<title>Portfolio</title>
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
 	rel="stylesheet">
 

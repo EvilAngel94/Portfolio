@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Air &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -47,18 +47,8 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li class="active"><a href="portfolio.html">Portfolio</a></li>
-							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="contact.html">Contact</a></li>
-							<li class="btn-cta"><a href="#"><span>Login</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -91,98 +81,10 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="fh5co-portfolio animate-box">
-						<a href="#">
-							<div class="portfolio-entry" style="background-image: url(images/portfolio-2.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Photoshoot On The Street</h3>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>200</li>
-									<li><i class="icon-eye2"></i>248</li>
-									<li><i class="icon-download3"></i>240</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-portfolio animate-box">
-						<a href="#">
-							<div class="portfolio-entry" style="background-image: url(images/portfolio-3.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Photoshoot On The Street</h3>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>200</li>
-									<li><i class="icon-eye2"></i>248</li>
-									<li><i class="icon-download3"></i>240</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-portfolio animate-box">
-						<a href="#">
-							<div class="portfolio-entry" style="background-image: url(images/portfolio-5.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Photoshoot On The Street</h3>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>200</li>
-									<li><i class="icon-eye2"></i>248</li>
-									<li><i class="icon-download3"></i>240</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-portfolio animate-box">
-						<a href="#">
-							<div class="portfolio-entry" style="background-image: url(images/portfolio-4.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Photoshoot On The Street</h3>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>200</li>
-									<li><i class="icon-eye2"></i>248</li>
-									<li><i class="icon-download3"></i>240</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-portfolio animate-box">
-						<a href="#">
-							<div class="portfolio-entry" style="background-image: url(images/portfolio-6.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Photoshoot On The Street</h3>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>200</li>
-									<li><i class="icon-eye2"></i>248</li>
-									<li><i class="icon-download3"></i>240</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 	
-	<div id="fh5co-started">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Hire Us!</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- footer page is included. -->
 	<%@ include file="footer.jsp"%>
 	</div>
