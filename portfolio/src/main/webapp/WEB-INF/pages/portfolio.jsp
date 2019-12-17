@@ -5,30 +5,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-	content="Free HTML5 Website Template by freehtml5.co" />
-<meta name="keywords"
-	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 <meta name="author" content="freehtml5.co" />
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 <!-- Animate.css -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
@@ -80,14 +73,11 @@
 					<div class="col-md-4">
 						<div class="fh5co-portfolio animate-box">
 							<a href="#">
-								<div class="portfolio-entry"
-									style="background-image: url(images/portfolio-1.jpg);"></div>
+								<div class="portfolio-entry" style="background-image: url(resources/images/hangman-game.jpg);"></div>
 								<div class="portfolio-text">
-									<h3>Photoshoot On The Street</h3>
+									<h3>Hangman project</h3>
 									<ul class="stuff">
-										<li><i class="icon-heart2"></i>200</li>
-										<li><i class="icon-eye2"></i>248</li>
-										<li><i class="icon-download3"></i>240</li>
+										<li onclick="location.href='https://github.com/EvilAngel94/Hangman';"><i class="icon-github"> Github</i></li>
 									</ul>
 								</div>
 							</a>
