@@ -10,7 +10,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 /**
- * Within this class all beans are specified which are used within the application.
+ * Within this class all beans are specified which are used within the
+ * application.
  */
 @Configuration
 @EnableWebMvc
