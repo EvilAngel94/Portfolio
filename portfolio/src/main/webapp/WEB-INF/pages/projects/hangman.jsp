@@ -31,7 +31,6 @@
 
 <body>
 
-
 	<div id="page">
 		<!-- Header of the pagina -->
 		<nav class="fh5co-nav" role="navigation">
@@ -45,10 +44,8 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><i class="icon-arrow-left"></i><a href="return">Return
+										to portfolio</a></li>
 							</ul>
 						</div>
 					</div>
@@ -98,39 +95,90 @@
 				</div>
 			</div>
 		</div>
+
 		<div id="fh5co-blog">
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Recent Post</h2>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga
-							molestias accusamus alias autem provident. Odit ab aliquam dolor
-							eius.</p>
+						<h2>Our Blog</h2>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg"
-								style="background-image: url(images/blog-1.jpg);"></a>
+						<!-- Misschien kan je gewoon <img> gebruiken hier -->								
+							<div style="background-image: url(resources/images/blog-1.jpg);" class="blog-bg">
+								<span class="posted_on">Feb. 15th 2016</span>
+								<h3>
+									<a href="#">Photoshoot On The Street</a>
+								</h3>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>1,308</li>
+									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
 							<a href="#" class="blog-bg"
-								style="background-image: url(images/blog-2.jpg);"></a>
+								style="background-image: url(resources/images/blog-2.jpg);"></a>
+							<div class="blog-text">
+								<span class="posted_on">Feb. 15th 2016</span>
+								<h3>
+									<a href="#">Surfing at Philippines</a>
+								</h3>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>1,308</li>
+									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
 							<a href="#" class="blog-bg"
-								style="background-image: url(images/blog-3.jpg);"></a>
+								style="background-image: url(resources/images/blog-3.jpg);"></a>
+							<div class="blog-text">
+								<span class="posted_on">Feb. 15th 2016</span>
+								<h3>
+									<a href="#">Focus On Uderwater</a>
+								</h3>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>249</li>
+									<li><i class="icon-eye2"></i>1,308</li>
+									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
+
+	<!-- jQuery -->
+	<script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
+	<!-- jQuery Easing -->
+	<script src="<c:url value="/resources/js/jquery.easing.1.3.js"/>"></script>
+	<!-- Bootstrap -->
+	<script src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
+	<!-- Waypoints -->
+	<script src="<c:url value="/resources/js/jquery.waypoints.min.js"/>"></script>
+	<!-- Flexslider -->
+	<script src="<c:url value="/resources/js/jquery.flexslider-min.js"/>"></script>
+	<!-- Main -->
+	<script src="<c:url value="/resources/js/main.js"/>"></script>
+
 </body>
 </html>
