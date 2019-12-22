@@ -85,9 +85,7 @@
 								<div class="portfolio-text">
 									<h3>Hangman project</h3>
 									<ul class="stuff">
-										<li
-											onclick="location.href='https://github.com/EvilAngel94/Hangman';"><i
-											class="icon-github"> Github</i></li>
+										<li>Go to the project</li>
 									</ul>
 								</div>
 							</a>

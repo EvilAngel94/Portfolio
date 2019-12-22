@@ -58,19 +58,22 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Wireframe Connects the Underlying Conceptual Structure</h2>
+						<h2>Hangman</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
-							<h3>Wireframe Connects the Underlying Conceptual Structure</h3>
+							<h3>Why this project</h3>
+							<p>
+								Dit project is tot stand gekomen toen ik net begonnen ben met programmeren. Mijn intresse in programmeren kwam van het gamen oorspronkelijk.
+								Daarom leek het me het meest logische om te beginnen met een game te maken. Daarom had ik gekozen om dit project te maken.
+							</p>
 							<p>Far far away, behind the word mountains, far from the
 								countries Vokalia and Consonantia, there live the blind texts
 								far from the countries Vokalia and Consonantia, there live the
 								blind texts.</p>
-							<span>Louie Jie Mahusay</span><br> <small>CEO,
-								Founder</small>
+								<small><a class="icon-github" href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
@@ -100,66 +103,23 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Our Blog</h2>
-						<p>Far far away, behind the word mountains, far from the
-							countries Vokalia and Consonantia.</p>
+						<h2>Hangman pictures</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-						<!-- Misschien kan je gewoon <img> gebruiken hier -->								
-							<div style="background-image: url(resources/images/blog-1.jpg);" class="blog-bg">
-								<span class="posted_on">Feb. 15th 2016</span>
-								<h3>
-									<a href="#">Photoshoot On The Street</a>
-								</h3>
-								<p>Far far away, behind the word mountains, far from the
-									countries Vokalia and Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>1,308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
+							<img src="../resources/images/blog-1.jpg" alt="beschrijving één" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg"
-								style="background-image: url(resources/images/blog-2.jpg);"></a>
-							<div class="blog-text">
-								<span class="posted_on">Feb. 15th 2016</span>
-								<h3>
-									<a href="#">Surfing at Philippines</a>
-								</h3>
-								<p>Far far away, behind the word mountains, far from the
-									countries Vokalia and Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>1,308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
+							<img src="../resources/images/blog-2.jpg" alt="beschrijving één" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg"
-								style="background-image: url(resources/images/blog-3.jpg);"></a>
-							<div class="blog-text">
-								<span class="posted_on">Feb. 15th 2016</span>
-								<h3>
-									<a href="#">Focus On Uderwater</a>
-								</h3>
-								<p>Far far away, behind the word mountains, far from the
-									countries Vokalia and Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>1,308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
+							<img src="../resources/images/blog-3.jpg" alt="beschrijving één" class="blog-bg" />
 						</div>
 					</div>
 				</div>
