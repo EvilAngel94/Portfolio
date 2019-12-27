@@ -23,6 +23,12 @@ public class ProjectController {
 		return new ModelAndView(PREFIX + "hangman");
 	}
 	
+	@RequestMapping(value = PREFIX + "webscraping", method = RequestMethod.GET)
+	public ModelAndView webscrapingProject() {
+		LOGGER.info("webscraping project is being created..");
+		return new ModelAndView(PREFIX + "webscraping");
+	}
+	
 	@RequestMapping(value = PREFIX + "returnToPortfolio", method = RequestMethod.GET)
 	public ModelAndView returnToPortfolioOverview() {
 		LOGGER.info("Returning to portfolio overview");
