@@ -23,9 +23,15 @@ public class ProjectController {
 		return new ModelAndView(PREFIX + "hangman");
 	}
 	
-	@RequestMapping(value = PREFIX + "return", method = RequestMethod.GET)
+	@RequestMapping(value = PREFIX + "returnToPortfolio", method = RequestMethod.GET)
 	public ModelAndView returnToPortfolioOverview() {
-		LOGGER.info("Hangman project is being created..");
+		LOGGER.info("Returning to portfolio overview");
 		return new ModelAndView("redirect:/portfolio.html");
+	}
+	
+	@RequestMapping(value = PREFIX + "returnToIndex", method = RequestMethod.GET)
+	public ModelAndView returToIndexPage() {
+		LOGGER.info("Returning to homepage");
+		return new ModelAndView("redirect:/index.html");
 	}
 }

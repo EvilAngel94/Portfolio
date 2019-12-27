@@ -39,12 +39,12 @@
 					<div class="row">
 						<div class="col-xs-2">
 							<div id="fh5co-logo">
-								<a href="index.html">Portfolio<span>.</span></a>
+								<a href="returnToIndex">Portfolio<span>.</span></a>
 							</div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><i class="icon-arrow-left"></i><a href="return">Return
+								<li><i class="icon-arrow-left"></i><a href="returnToPortfolio">Return
 										to portfolio</a></li>
 							</ul>
 						</div>
@@ -65,35 +65,33 @@
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>
-								Dit project is tot stand gekomen toen ik net begonnen ben met programmeren. Mijn intresse in programmeren kwam van het gamen oorspronkelijk.
-								Daarom leek het me het meest logische om te beginnen met een game te maken. Daarom had ik gekozen om dit project te maken.
-							</p>
-							<p>Far far away, behind the word mountains, far from the
-								countries Vokalia and Consonantia, there live the blind texts
-								far from the countries Vokalia and Consonantia, there live the
-								blind texts.</p>
-								<small><a class="icon-github" href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
+							<p>The hangman project started when my interest in
+								programming began to grow. Due to the fact that Iâ€™ve always been
+								interested in games, a logical step for me was to create my own
+								game. This resulted in this project, Hangman.</p>
+							<small><a class="icon-github"
+								href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>Far far away, behind the word mountains, far from the
-							countries Vokalia and Consonantia, there live the blind texts far
-							from the countries Vokalia and Consonantia, there live the blind
-							texts.</p>
+						<p>During the development of this project, different steps
+							were taken in order to create the game it is at this moment. The
+							first version of the game was solely guessing words and nothing
+							more than that. The second version of the game, it was possible
+							to also choose a different lengths of words. Also the word is
+							randomly selected from 200 different words. In the latest version
+							of the game, the player can now see their own player stats. The
+							amount of games a player has played, the total amount of words
+							solved and how many lives are lost while playing.</p>
+
+						<p>Future releases and ideas for improvements for the game are
+							listed at the wiki page on GitHub.</p>
 						<blockquote>
-							<p>Far far away, behind the word mountains, far from the
-								countries Vokalia and Consonantia, there live the blind texts
-								far from the countries Vokalia and Consonantia, there live the
-								blind texts.</p>
+							<p>
+								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 -
+								Log4J2<br> Tools used: <br> GitHub - GitKraken
+							</p>
 						</blockquote>
-						<p>Far far away, behind the word mountains, far from the
-							countries Vokalia and Consonantia, there live the blind texts far
-							from the countries Vokalia and Consonantia, there live the blind
-							texts. far away, behind the word mountains, far from the
-							countries Vokalia and Consonantia, there live the blind texts far
-							from the countries Vokalia and Consonantia, there live the blind
-							texts.</p>
 					</div>
 				</div>
 			</div>
@@ -109,17 +107,20 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/blog-1.jpg" alt="beschrijving één" class="blog-bg" />
+							<img src="../resources/images/hangman-gameloop.png"
+								alt="Hangman gameloop example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/blog-2.jpg" alt="beschrijving één" class="blog-bg" />
+							<img src="../resources/images/hangman-stats.png"
+								alt="Hangman gamestats example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/blog-3.jpg" alt="beschrijving één" class="blog-bg" />
+							<img src="../resources/images/hangman-win.png"
+								alt="Hangman win example" class="blog-bg" />
 						</div>
 					</div>
 				</div>
