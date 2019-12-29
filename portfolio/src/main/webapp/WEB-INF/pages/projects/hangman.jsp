@@ -44,8 +44,8 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><i class="icon-arrow-left"></i><a href="returnToPortfolio">Return
-										to portfolio</a></li>
+								<li><i class="icon-arrow-left"></i><a
+									href="returnToPortfolio">Return to portfolio</a></li>
 							</ul>
 						</div>
 					</div>
@@ -66,9 +66,9 @@
 						<div class="user-frame">
 							<h3>Why this project</h3>
 							<p>The hangman project started when my interest in
-								programming began to grow. Due to the fact that I’ve always been
-								interested in games, a logical step for me was to create my own
-								game. This resulted in this project, Hangman.</p>
+								programming began to grow. Due to the fact that I have always
+								been interested in games, a logical step for me was to create my
+								own game. This resulted in this project, Hangman.</p>
 							<small><a class="icon-github"
 								href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
 						</div>

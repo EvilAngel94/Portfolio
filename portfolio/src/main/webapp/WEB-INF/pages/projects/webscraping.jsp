@@ -44,8 +44,8 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><i class="icon-arrow-left"></i><a href="returnToPortfolio">Return
-										to portfolio</a></li>
+								<li><i class="icon-arrow-left"></i><a
+									href="returnToPortfolio">Return to portfolio</a></li>
 							</ul>
 						</div>
 					</div>
@@ -65,18 +65,45 @@
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>....</p>
+							<p>The initial goal of this project was to conduct market
+								research of different Tower Defense games. Besides this initial
+								goal, it was also a fun and interesting way to get more familiar
+								with (new) concepts.</p>
 							<small><a class="icon-github"
-								href="https://github.com/EvilAngel94/website-scraping"> Webscraping</a></small>
+								href="https://github.com/EvilAngel94/website-scraping">
+									Webscraping</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>....</p>
-						
+						<p>For instance, the information which is relevant should be
+							saved and stored somewhere. For this reason I decided to look
+							into Google Sheets, and how to use this to save data. This
+							resulted in the use of the Sheets API, in order to use this API
+							it was necessary to use the Google Cloud Platform.</p>
+						<p>In order to implement the Sheets API, different parts of
+							the GCP were used, for example:
+						<ul>
+							<li>Service Account</li>
+							<li>OAuth</li>
+							<li>Sheets API</li>
+						</ul>
+						<br>
+						<p>Overall, this project was a good exercise to get more
+							familiar with the Selenium Framework and Jenkins. Locally a link
+							was created to Jenkins, with one click on the button the process
+							is started and all the information is stored in Sheets. The flow
+							of the Jenkins job was created with Jenkins Pipelines.
+							Furthermore, the JaCoCo plugin was installed to check the code
+							coverage of the project. Also it is possible to see how many
+							tests were failing or passing in the Jenkins Dashboard of the
+							project.</p>
+
 						<blockquote>
-							<p>						
-								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 - Selenium (v3.141.59) - JaCoCo (v0.8.2) -
-								Log4J2<br> Tools used: <br> GitHub - GitKraken - Google Cloud Platform - SonarQube - Jenkins 2
+							<p>
+								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 -
+								Selenium v3.141.59 - JaCoCo v0.8.2 - Log4J2<br> Tools used:
+								<br> GitHub - GitKraken - Google Cloud Platform - SonarQube
+								- Jenkins 2
 							</p>
 						</blockquote>
 					</div>
