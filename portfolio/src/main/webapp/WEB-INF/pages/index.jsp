@@ -18,17 +18,13 @@
 	rel="stylesheet">
 
 <!-- Animate.css -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet"	href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet"	href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet"	href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet"	href="<c:url value="/resources/css/flexslider.css"/>">
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
