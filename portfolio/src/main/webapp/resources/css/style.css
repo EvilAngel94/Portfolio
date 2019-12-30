@@ -22,6 +22,7 @@ body {
 	line-height: 1.7;
 	color: #333333;
 	background: #fff;
+	font-family: "Inconsolata", Arial, sans-serif;
 }
 
 #page {
@@ -1793,18 +1794,74 @@ svg circle:nth-child(2) {
 }
 
 .cv-card:nth-child(1) svg circle:nth-child(2) {
-	stroke-dashoffset: -moz-calc(440 - (440 * 85 ) / 100);
+	stroke-dashoffset: calc(440 - ( 440 * 85)/100);
 	stroke: #00ff43;
 }
 
 .cv-card:nth-child(2) svg circle:nth-child(2) {
-	stroke-dashoffset: -moz-calc(440 - (440 * 70 ) / 100);
+	stroke-dashoffset: calc(440 - ( 440 * 70)/100);
 	stroke: #00a1ff;
 }
 
 .cv-card:nth-child(3) svg circle:nth-child(2) {
-	stroke-dashoffset: -moz-calc(440 - (440 * 60 ) / 100);
+	-moz-box-sizing: border-box;
 	stroke: #ff04f7;
+}
+
+/* STACK OVERFLOW EXAMPLE **/
+.flex-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.single-chart {
+	width: 33%;
+	justify-content: space-around;
+}
+
+.circular-chart {
+	display: block;
+	margin: 10px auto;
+	max-width: 80%;
+	max-height: 250px;
+}
+
+.circle-bg {
+	fill: none;
+	stroke: #eee;
+	stroke-width: 3.8;
+}
+
+.circle {
+	fill: none;
+	stroke-width: 2.8;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+}
+
+@
+keyframes progress { 0% {
+	stroke-dasharray: 0 100;
+}
+
+}
+.circular-chart.orange .circle {
+	stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+	stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+	stroke: #3c9ee5;
+}
+
+.percentage {
+	fill: #666;
+	font-family: sans-serif;
+	font-size: 0.5em;
+	text-anchor: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
