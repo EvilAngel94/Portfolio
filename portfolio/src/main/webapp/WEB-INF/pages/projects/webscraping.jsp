@@ -89,9 +89,9 @@
 						</ul>
 						<br>
 						<p>Overall, this project was a good exercise to get more
-							familiar with the Selenium Framework and Jenkins. Locally a link
-							was created to Jenkins, with one click on the button the process
-							is started and all the information is stored in Sheets. The flow
+							familiar with the Selenium Framework and Jenkins. Locally, with
+							the following command 'mvn clean install' all the data is
+							gathered from the website, and stored in Google Sheets. The flow
 							of the Jenkins job was created with Jenkins Pipelines.
 							Furthermore, the JaCoCo plugin was installed to check the code
 							coverage of the project. Also it is possible to see how many
@@ -121,20 +121,52 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-gameloop.png"
-								alt="Hangman gameloop example" class="blog-bg" />
+							<img
+								src="../resources/images/webscraping/webscraping_data_example.jpg"
+								alt="Webscraping data example" class="blog-bg" />
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Jenkins Pictures</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<img src="../resources/images/webscraping/jenkins_dashboard.jpg"
+								alt="Webscraping dashboard" class="blog-bg" />
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<img
+								src="../resources/images/webscraping/jenkins_job_overview.jpg"
+								alt="Webscraping job overview" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-stats.png"
-								alt="Hangman gamestats example" class="blog-bg" />
+							<img src="../resources/images/webscraping/jenkins_stage.jpg"
+								alt="Webscraping stage overview" class="blog-bg" />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<img src="../resources/images/webscraping/jenkins_jacoco.jpg"
+								alt="Webscraping jacoco data" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-win.png"
-								alt="Hangman win example" class="blog-bg" />
+							<img
+								src="../resources/images/webscraping/jenkins_test_result.jpg"
+								alt="Webscraping test results" class="blog-bg" />
 						</div>
 					</div>
 				</div>
@@ -154,6 +186,5 @@
 	<script src="<c:url value="/resources/js/jquery.flexslider-min.js"/>"></script>
 	<!-- Main -->
 	<script src="<c:url value="/resources/js/main.js"/>"></script>
-
 </body>
 </html>
