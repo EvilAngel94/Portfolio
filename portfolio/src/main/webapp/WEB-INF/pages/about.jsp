@@ -34,7 +34,9 @@
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
-
+<!-- Script Font Awesome -->
+<script src="https://kit.fontawesome.com/384b439c20.js"
+	crossorigin="anonymous"></script>
 <!-- Modernizr JS -->
 <script src="<c:url value="/resources/js/modernizr-2.6.2.min.js"/>"></script>
 </head>
@@ -66,108 +68,15 @@
 		</nav>
 
 		<div class="cv-container">
-			<div class="cv-card">
-				<div class="cv-box">
-					<div class="cv-percent">
-						<svg>
-							<circle cx="70" cy="70" r="70"></circle>
-							<circle cx="70" cy="70" r="70"></circle>
-						</svg>
-						<div class="cv-number">
-							<h2>
-								90<span>%</span>
-							</h2>
+			<div id="fh5co-about">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Wie is Michiel</h2>
+							<p>....</p>
 						</div>
-						<h2 class="cv-text">HTML</h2>
 					</div>
 				</div>
-			</div>
-			<div class="cv-card">
-				<div class="cv-box">
-					<div class="cv-percent">
-						<svg>
-							<circle cx="70" cy="70" r="70"></circle>
-							<circle cx="70" cy="70" r="70"></circle>
-						</svg>
-						<div class="cv-number">
-							<h2>
-								70<span>%</span>
-							</h2>
-						</div>
-						<h2 class="cv-text">CSS</h2>
-					</div>
-				</div>
-			</div>
-			<div class="cv-card">
-				<div class="cv-box">
-					<div class="cv-percent">
-						<svg>
-							<circle cx="70" cy="70" r="70"></circle>
-							<circle cx="70" cy="70" r="70"></circle>
-						</svg>
-						<div class="cv-number">
-							<h2>
-								60<span>%</span>
-							</h2>
-						</div>
-						<h2 class="cv-text">JavaScript</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-about">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Wie is Michiel</h2>
-						<p>....</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="flex-wrapper">
-			<div class="single-chart">
-				<svg viewbox="0 0 36 36" class="circular-chart orange">
-      <path class="circle-bg"
-						d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <path class="circle" stroke-dasharray="30, 100"
-						d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <text x="18" y="20.35" class="percentage">30%</text>
-    </svg>
-			</div>
-
-			<div class="single-chart">
-				<svg viewbox="0 0 36 36" class="circular-chart green">
-      <path class="circle-bg"
-						d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <path class="circle" stroke-dasharray="60, 100"
-						d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <text x="18" y="20.35" class="percentage">60%</text>
-    </svg>
-			</div>
-
-			<div class="single-chart">
-				<svg viewbox="0 0 36 36" class="circular-chart blue">
-      <path class="circle-bg"
-						d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <path class="circle" stroke-dasharray="90, 100"
-						d="M18 2.0845S
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-      <text x="18" y="20.35" class="percentage">90%</text>
-    </svg>
 			</div>
 		</div>
 
@@ -175,104 +84,82 @@
 		<div id="fh5co-features">
 			<div class="container">
 				<div class="services-padding">
+					<!-- All programming stuff should be stated here. -->
 					<div class="row">
 						<div class="col-md-4 animate-box">
 							<div class="feature-left">
-								<span class="icon"> <i class="icon-hotairballoon"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Marketing</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
+								<h3>Programming Skills</h3>
+								<ul class="fh5co-footer-links">
+									<li>Java 8</li>
+									<li>JavaScript</li>
+									<li>HTML / CSS</li>
+									<li>MySQL</li>
+									<li>XML</li>
+									<li>Hibernate (v2 & v5)</li>
+									<li>Spring (v5.2)</li>
+									<li>IBM WebSphere</li>
+									<li>Selenium (v3.141.59)</li>
+									<li>Cucumber.io</li>
+									<li>JUnit (v4.12)</li>
+									<li>Mockito (v2.10)</li>
+								</ul>
 							</div>
-						</div>
-
-						<div class="col-md-4 animate-box">
-							<div class="feature-left">
-								<span class="icon"> <i class="icon-search"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Search Engine</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
-							</div>
-
 						</div>
 						<div class="col-md-4 animate-box">
 							<div class="feature-left">
-								<span class="icon"> <i class="icon-wallet"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Earn Money</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
+								<h3>Tools</h3>
+								<ul class="fh5co-footer-links">
+									<li>Maven (v3.2)</li>
+									<li>Jenkins (v2)</li>
+									<li>SonarQube</li>
+									<li>Git</li>
+									<li>Google Cloud</li>
+									<li>Google Suite</li>
+								</ul>
 							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-4 animate-box">
-
-							<div class="feature-left">
-								<span class="icon"> <i class="icon-wine"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Entrepreneur</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-md-4 animate-box">
-							<div class="feature-left">
-								<span class="icon"> <i class="icon-genius"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Stragic Plan</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
-							</div>
-
 						</div>
 						<div class="col-md-4 animate-box">
 							<div class="feature-left">
-								<span class="icon"> <i class="icon-chat"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Support</h3>
-									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-										mollitia reprehenderit.</p>
-									<p>
-										<a href="#">Learn More <i class="icon-arrow-right22"></i></a>
-									</p>
-								</div>
+								<h3>Methodology</h3>
+								<ul class="fh5co-footer-links">
+									<li>OOP (Object Oriented Programming)</li>
+									<li>BDD (Behaviour Driven Development)</li>
+									<li>TDD (Test Driven Development)</li>
+									<li>SCRUM</li>
+									<li>DevOps</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="cv-container">
+			<div id="fh5co-about">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Work Experience</h2>
+							<p>....</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fh5co-features">
+			<div class="container">
+				<div class="services-padding">
+					<div class="services-padding">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Education</h2>
+							<p>....</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<%@ include file="footer.jsp"%>
 	</div>
