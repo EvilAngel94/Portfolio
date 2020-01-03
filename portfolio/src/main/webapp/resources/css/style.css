@@ -23,6 +23,8 @@ body {
 	color: #333333;
 	background: #fff;
 	font-family: "Inconsolata", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 #page {
@@ -1663,6 +1665,177 @@ input[type="text"] {
 
 .js .animate-box {
 	opacity: 0;
+}
+
+/** Timeline thingies */
+.timeline {
+	position: relative;
+	margin: 50px auto;
+	padding: 40px 0;
+	width: 1000px; /** use auto  if not auto rotated thing*/
+}
+
+.timeline:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	background: #c5c5c5;
+}
+
+.timeline .timeline-ul {
+	margin: 0;
+	padding: 0;
+}
+
+.timeline .timeline-ul .timeline-li {
+	list-style: none;
+	position: relative;
+	width: 50%;
+	padding: 20px 40px;
+	box-sizing: border-box;;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(odd) {
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(odd):before {
+	content: '';
+	position: absolute;
+	top: 24px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	background: rgba(233, 33, 99, 1);
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+	width: 10px;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(even) {
+	float: right;
+	text-align: left;
+	clear: both;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(even):before {
+	content: '';
+	position: absolute;
+	top: 24px;
+	left: -4px;
+	width: 10px;
+	height: 10px;
+	background: rgba(233, 33, 99, 1);
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+	width: 10px;
+}
+
+.timeline-content {
+	padding-bottom: 20px;
+}
+
+.timeline .timeline-ul .timeline-li #timeline-h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: rgba(233, 33, 99, 1);
+}
+
+.timeline .timeline-ul .timeline-li #timeline-p {
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-time #timeline-h4
+	{
+	position: absolute;
+	top: 12px;
+	right: -270px;
+	margin: 0;
+	padding: 8px 16px;
+	background: rgba(233, 33, 99, 1);
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);
+	display: block;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-time #timeline-work
+	{
+	position: absolute;
+	top: 12px;
+	right: -270px;
+	margin: 0;
+	padding: 8px 16px;
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	background: rgba(254, 232, 86, 1);
+	box-shadow: 0 0 0 3px rgba(254, 232, 86, 1);
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-time #timeline-school
+	{
+	position: absolute;
+	top: 12px;
+	right: -270px;
+	margin: 0;
+	padding: 8px 16px;
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 0 0 3px rgba(86, 103, 254, 1);
+	background: rgba(86, 103, 254, 1);
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(even) .timeline-time #timeline-h4
+	{
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	background: rgba(233, 33, 99, 1);
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);
+	display: block;
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(even) .timeline-time #timeline-work
+	{
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	background: rgba(254, 232, 86, 1);
+	box-shadow: 0 0 0 3px rgba(254, 232, 86, 1);
+}
+
+.timeline .timeline-ul .timeline-li:nth-child(even) .timeline-time #timeline-school
+	{
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	color: #000;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 0 0 3px rgba(86, 103, 254, 1);
+	background: rgba(86, 103, 254, 1);
 }
 
 /*# sourceMappingURL=style.css.map */

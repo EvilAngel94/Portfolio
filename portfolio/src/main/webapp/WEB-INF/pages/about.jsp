@@ -135,31 +135,104 @@
 			</div>
 		</div>
 
-		<div class="cv-container">
-			<div id="fh5co-about">
-				<div class="container">
-					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Work Experience</h2>
-							<p>....</p>
-						</div>
+		<div class="timeline">
+			<ul class="timeline-ul">
+				<li class="timeline-li">
+					<div class="timeline-content">
+						<h3 id="timeline-h3">Junior Software Engineer - CZ - Tilburg
+							The Netherlands</h3>
+						<p id="timeline-p">I love you Turn my headphone down a little
+							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
+							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
+							whoa, yeah How much money you got? (Straight up) How much money
+							you got? (Straight up) How much money you got? (Straight up) How
+							much money you got? (A lot) How much money you got? (A lot) How
+							many problems you got? (A lot) How many people done doubted you?
+							(A lot) Left you out to rot? (A lot) How many pray that you flop?
+							(A lot) How many lawyers you got? (A lot) How many times you got
+							shot? (A lot) How many niggas you shot? (A lot) How many times
+							did you ride? (A lot) How many niggas done died? (A lot) How many
+							times did you cheat? (A lot) How many times did you lie? (A lot)
+							How many times did…
 					</div>
-				</div>
-			</div>
-		</div>
-		<div id="fh5co-features">
-			<div class="container">
-				<div class="services-padding">
-					<div class="services-padding">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Education</h2>
-							<p>....</p>
-						</div>
+					<div class="timeline-time">
+						<h4 id="timeline-work">
+							01-06-2018 till present <br> Work
+						</h4>
 					</div>
-				</div>
-			</div>
+				</li>
+				<li class="timeline-li">
+					<div class="timeline-content">
+						<h3 id="timeline-h3">What is this content</h3>
+						<p id="timeline-p">I love you Turn my headphone down a little
+							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
+							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
+							whoa, yeah How much money you got? (Straight up) How much money
+							you got? (Straight up) How much money you got? (Straight up) How
+							much money you got? (A lot) How much money you got? (A lot) How
+							many problems you got? (A lot) How many people done doubted you?
+							(A lot) Left you out to rot? (A lot) How many pray that you flop?
+							(A lot) How many lawyers you got? (A lot) How many times you got
+							shot? (A lot) How many niggas you shot? (A lot) How many times
+							did you ride? (A lot) How many niggas done died? (A lot) How many
+							times did you cheat? (A lot) How many times did you lie? (A lot)
+							How many times did…
+					</div>
+					<div class="timeline-time">
+						<h4 id="timeline-work">
+							January 2019 <br> Work
+						</h4>
+					</div>
+				</li>
+				<li class="timeline-li">
+					<div class="timeline-content">
+						<h3 id="timeline-h3">What is this content</h3>
+						<p id="timeline-p">I love you Turn my headphone down a little
+							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
+							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
+							whoa, yeah How much money you got? (Straight up) How much money
+							you got? (Straight up) How much money you got? (Straight up) How
+							much money you got? (A lot) How much money you got? (A lot) How
+							many problems you got? (A lot) How many people done doubted you?
+							(A lot) Left you out to rot? (A lot) How many pray that you flop?
+							(A lot) How many lawyers you got? (A lot) How many times you got
+							shot? (A lot) How many niggas you shot? (A lot) How many times
+							did you ride? (A lot) How many niggas done died? (A lot) How many
+							times did you cheat? (A lot) How many times did you lie? (A lot)
+							How many times did…
+					</div>
+					<div class="timeline-time">
+						<h4 id="timeline-school">
+							January 2019 <br> Education
+						</h4>
+					</div>
+				</li>
+				<li class="timeline-li">
+					<div class="timeline-content">
+						<h3 id="timeline-h3">What is this content</h3>
+						<p id="timeline-p">I love you Turn my headphone down a little
+							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
+							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
+							whoa, yeah How much money you got? (Straight up) How much money
+							you got? (Straight up) How much money you got? (Straight up) How
+							much money you got? (A lot) How much money you got? (A lot) How
+							many problems you got? (A lot) How many people done doubted you?
+							(A lot) Left you out to rot? (A lot) How many pray that you flop?
+							(A lot) How many lawyers you got? (A lot) How many times you got
+							shot? (A lot) How many niggas you shot? (A lot) How many times
+							did you ride? (A lot) How many niggas done died? (A lot) How many
+							times did you cheat? (A lot) How many times did you lie? (A lot)
+							How many times did…
+					</div>
+					<div class="timeline-time">
+						<h4 id="timeline-school">
+							January 2019 <br> Education
+						</h4>
+					</div>
+				</li>
+				<div style="clear: both;" /></div>
+			</ul>
 		</div>
-
 
 		<%@ include file="footer.jsp"%>
 	</div>
