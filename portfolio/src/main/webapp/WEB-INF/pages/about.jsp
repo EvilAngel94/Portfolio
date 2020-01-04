@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-	content="Free HTML5 Website Template by freehtml5.co" />
+<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 <meta name="keywords"
 	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 <meta name="author" content="freehtml5.co" />
@@ -14,29 +13,21 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 <!-- Animate.css -->
 
 
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
-<!-- Script Font Awesome -->
-<script src="https://kit.fontawesome.com/384b439c20.js"
-	crossorigin="anonymous"></script>
 <!-- Modernizr JS -->
 <script src="<c:url value="/resources/js/modernizr-2.6.2.min.js"/>"></script>
 </head>
@@ -143,25 +134,16 @@
 							Junior Software Engineer - CZ <br> Tilburg The Netherlands
 						</h3>
 						<p id="timeline-p">
-							Bij CZ ben ik samen met twee andere senior ontwikkelaars
-							verantwoordelijk voor het onderhouden van het debiteuren systeem.
-							Taken die hieronder vallen zijn het implementeren van nieuwe
-							features voor het systeem, bugs oplossen, nieuwe technologieën
-							onderzoeken die gebruikt kunnen worden binnen de huidige
-							applicatie. Verder automatiseer ik testen, en stel ik feature
-							files op met andere teamleden voor BDD. Ook help ik teamleden met
-							het schrijven van automatische testen. <br> Wanneer ik
-							zelfstandig te werk ga, wil ik altijd eerst het probleem
-							begrijpen en context krijgen. Dit gebeurt altijd tijdens een
-							overleg met een ander teamlid die meer ervaring heeft met het
-							systeem. Wanneer ik de context duidelijk heb maak ik een opzet
-							van mijn oplossing en overleg ik dit met een van de senior
-							ontwikkelaars. Als de oplossing goed gekeurd is, maak ik de
-							unittesten eerst. Dan begin ik aan de oplossing en een controle
-							doe ik met behulp van de gemaakte unit testen plus een
-							uitgebreidere test die het hele verloop controleert. Hierna als
-							alles goed gekeurd is wordt er een code review gedaan door een
-							andere ontwikkelaar.
+							Bij CZ ben ik samen met twee andere senior ontwikkelaars verantwoordelijk voor het onderhouden van het debiteuren
+							systeem. Taken die hieronder vallen zijn het implementeren van nieuwe features voor het systeem, bugs oplossen, nieuwe
+							technologieën onderzoeken die gebruikt kunnen worden binnen de huidige applicatie. Verder automatiseer ik testen, en
+							stel ik feature files op met andere teamleden voor BDD. Ook help ik teamleden met het schrijven van automatische
+							testen. <br> Wanneer ik zelfstandig te werk ga, wil ik altijd eerst het probleem begrijpen en context krijgen.
+							Dit gebeurt altijd tijdens een overleg met een ander teamlid die meer ervaring heeft met het systeem. Wanneer ik de
+							context duidelijk heb maak ik een opzet van mijn oplossing en overleg ik dit met een van de senior ontwikkelaars. Als
+							de oplossing goed gekeurd is, maak ik de unittesten eerst. Dan begin ik aan de oplossing en een controle doe ik met
+							behulp van de gemaakte unit testen plus een uitgebreidere test die het hele verloop controleert. Hierna als alles goed
+							gekeurd is wordt er een code review gedaan door een andere ontwikkelaar.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -172,18 +154,13 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							Junior Software Engineer - Spring Professional <br> Leusden
-							- The Netherlands
+							Junior Software Engineer - Spring Professional <br> Leusden - The Netherlands
 						</h3>
-						<p id="timeline-p">Samen met collega’s een begin gemaakt voor
-							een password generator. Waarbij collega’s een wachtwoord kunnen
-							genereren door het klikken op een knop. Het nieuw gemaakte
-							wachtwoord wordt dan automatisch opgeslagen in een database.
-							Nadat een gebruiker inlogde, kan de gebruiker al zijn gegeneerde
-							wachtwoorden raadplegen op het scherm. Verder heb ik
-							verschillende online cursussen gevolgd om mezelf meer te
-							verdiepen in Java en MySQL. Ook heb ik in deze periode het
-							omscholings-traject “Make IT Work” in Amsterdam afgerond.
+						<p id="timeline-p">Samen met collega’s een begin gemaakt voor een password generator. Waarbij collega’s een
+							wachtwoord kunnen genereren door het klikken op een knop. Het nieuw gemaakte wachtwoord wordt dan automatisch
+							opgeslagen in een database. Nadat een gebruiker inlogde, kan de gebruiker al zijn gegeneerde wachtwoorden raadplegen
+							op het scherm. Verder heb ik verschillende online cursussen gevolgd om mezelf meer te verdiepen in Java en MySQL. Ook
+							heb ik in deze periode het omscholings-traject “Make IT Work” in Amsterdam afgerond.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -196,9 +173,8 @@
 						<h3 id="timeline-h3">
 							Make IT Work - HVA - Amsterdam <br> Retraining Program
 						</h3>
-						<p id="timeline-p">Courses: databases - OOP - data structures
-							- Scrum - hibernate - Spring MVC - HTML5 - JSP - Requirement
-							Engineering - software engineering tools
+						<p id="timeline-p">Courses: Databases - OOP - Data Structures - SCRUM - Hibernate - Spring MVC - HTML5 - JSP -
+							Requirement Engineering - Software Engineering Tools
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -209,12 +185,10 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							NHTV University of Applied Science - Breda <br>
-							International Hotel Management
+							NHTV University of Applied Science - Breda <br> International Hotel Management
 						</h3>
-						<p id="timeline-p">Courses: English - French - Imagineering -
-							CRM - accounting - event management - revenue management -
-							strategic management - finance
+						<p id="timeline-p">Courses: English - French - Imagineering - CRM - Accounting - Event Management - Revenue
+							Management - Strategic Management - Finance
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">

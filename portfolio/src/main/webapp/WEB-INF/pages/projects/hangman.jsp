@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,21 +7,16 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 <!-- Animate.css -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
@@ -44,8 +38,7 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><i class="icon-arrow-left"></i><a
-									href="returnToPortfolio">Return to portfolio</a></li>
+								<li><i class="icon-arrow-left"></i><a href="returnToPortfolio">Return to portfolio</a></li>
 							</ul>
 						</div>
 					</div>
@@ -65,31 +58,23 @@
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>The hangman project started when my interest in
-								programming began to grow. Due to the fact that I have always
-								been interested in games, a logical step for me was to create my
-								own game. This resulted in this project, Hangman.</p>
-							<small><a class="icon-github"
-								href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
+							<p>The hangman project started when my interest in programming began to grow. Due to the fact that I have always
+								been interested in games, a logical step for me was to create my own game. This resulted in this project, Hangman.</p>
+							<small><a class="icon-github" href="https://github.com/EvilAngel94/Hangman"> Hangman</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>During the development of this project, different steps
-							were taken in order to create the game it is at this moment. The
-							first version of the game was solely guessing words and nothing
-							more than that. The second version of the game, it was possible
-							to also choose a different lengths of words. Also the word is
-							randomly selected from 200 different words. In the latest version
-							of the game, the player can now see their own player stats. The
-							amount of games a player has played, the total amount of words
-							solved and how many lives are lost while playing.</p>
+						<p>During the development of this project, different steps were taken in order to create the game it is at this
+							moment. The first version of the game was solely guessing words and nothing more than that. The second version of the
+							game, it was possible to also choose a different lengths of words. Also the word is randomly selected from 200
+							different words. In the latest version of the game, the player can now see their own player stats. The amount of games
+							a player has played, the total amount of words solved and how many lives are lost while playing.</p>
 
-						<p>Future releases and ideas for improvements for the game are
-							listed at the wiki page on GitHub.</p>
+						<p>Future releases and ideas for improvements for the game are listed at the wiki page on GitHub.</p>
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 -
-								Log4J2<br> Tools used: <br> GitHub - GitKraken
+								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 - Log4J2<br> Tools used: <br> GitHub -
+								GitKraken
 							</p>
 						</blockquote>
 					</div>
@@ -107,20 +92,17 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-gameloop.png"
-								alt="Hangman gameloop example" class="blog-bg" />
+							<img src="../resources/images/hangman-gameloop.png" alt="Hangman gameloop example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-stats.png"
-								alt="Hangman gamestats example" class="blog-bg" />
+							<img src="../resources/images/hangman-stats.png" alt="Hangman gamestats example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-win.png"
-								alt="Hangman win example" class="blog-bg" />
+							<img src="../resources/images/hangman-win.png" alt="Hangman win example" class="blog-bg" />
 						</div>
 					</div>
 				</div>

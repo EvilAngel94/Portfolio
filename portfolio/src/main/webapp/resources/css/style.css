@@ -743,7 +743,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-social-icons li a i {
-	font-size: 20px;
+	font-size: 40px;
 }
 
 .fh5co-heading {
@@ -1836,6 +1836,11 @@ input[type="text"] {
 	text-align: center;
 	box-shadow: 0 0 0 3px rgba(86, 103, 254, 1);
 	background: rgba(86, 103, 254, 1);
+}
+
+.row .row-contact {
+	left: 50%;
+	top: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
