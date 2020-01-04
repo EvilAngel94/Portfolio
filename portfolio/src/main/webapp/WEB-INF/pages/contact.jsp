@@ -73,7 +73,7 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-md-push-1 animate-box">
+					<div class="col-md-3 col-md-push-1 animate-box fadeInUp animated-fast">
 						<h3>Our Address</h3>
 						<ul class="contact-info">
 							<li><i class="icon-location"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
@@ -81,6 +81,8 @@
 							<li><i class="icon-mail22"></i><a href="#">info@yoursite.com</a></li>
 							<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
 						</ul>
+					</div>
+					<div class="col-md-7 col-md-push-1 animate-box">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
