@@ -139,21 +139,29 @@
 			<ul class="timeline-ul">
 				<li class="timeline-li">
 					<div class="timeline-content">
-						<h3 id="timeline-h3">Junior Software Engineer - CZ - Tilburg
-							The Netherlands</h3>
-						<p id="timeline-p">I love you Turn my headphone down a little
-							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
-							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
-							whoa, yeah How much money you got? (Straight up) How much money
-							you got? (Straight up) How much money you got? (Straight up) How
-							much money you got? (A lot) How much money you got? (A lot) How
-							many problems you got? (A lot) How many people done doubted you?
-							(A lot) Left you out to rot? (A lot) How many pray that you flop?
-							(A lot) How many lawyers you got? (A lot) How many times you got
-							shot? (A lot) How many niggas you shot? (A lot) How many times
-							did you ride? (A lot) How many niggas done died? (A lot) How many
-							times did you cheat? (A lot) How many times did you lie? (A lot)
-							How many times did…
+						<h3 id="timeline-h3">
+							Junior Software Engineer - CZ <br> Tilburg The Netherlands
+						</h3>
+						<p id="timeline-p">
+							Bij CZ ben ik samen met twee andere senior ontwikkelaars
+							verantwoordelijk voor het onderhouden van het debiteuren systeem.
+							Taken die hieronder vallen zijn het implementeren van nieuwe
+							features voor het systeem, bugs oplossen, nieuwe technologieën
+							onderzoeken die gebruikt kunnen worden binnen de huidige
+							applicatie. Verder automatiseer ik testen, en stel ik feature
+							files op met andere teamleden voor BDD. Ook help ik teamleden met
+							het schrijven van automatische testen. <br> Wanneer ik
+							zelfstandig te werk ga, wil ik altijd eerst het probleem
+							begrijpen en context krijgen. Dit gebeurt altijd tijdens een
+							overleg met een ander teamlid die meer ervaring heeft met het
+							systeem. Wanneer ik de context duidelijk heb maak ik een opzet
+							van mijn oplossing en overleg ik dit met een van de senior
+							ontwikkelaars. Als de oplossing goed gekeurd is, maak ik de
+							unittesten eerst. Dan begin ik aan de oplossing en een controle
+							doe ik met behulp van de gemaakte unit testen plus een
+							uitgebreidere test die het hele verloop controleert. Hierna als
+							alles goed gekeurd is wordt er een code review gedaan door een
+							andere ontwikkelaar.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -163,70 +171,54 @@
 				</li>
 				<li class="timeline-li">
 					<div class="timeline-content">
-						<h3 id="timeline-h3">What is this content</h3>
-						<p id="timeline-p">I love you Turn my headphone down a little
-							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
-							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
-							whoa, yeah How much money you got? (Straight up) How much money
-							you got? (Straight up) How much money you got? (Straight up) How
-							much money you got? (A lot) How much money you got? (A lot) How
-							many problems you got? (A lot) How many people done doubted you?
-							(A lot) Left you out to rot? (A lot) How many pray that you flop?
-							(A lot) How many lawyers you got? (A lot) How many times you got
-							shot? (A lot) How many niggas you shot? (A lot) How many times
-							did you ride? (A lot) How many niggas done died? (A lot) How many
-							times did you cheat? (A lot) How many times did you lie? (A lot)
-							How many times did…
+						<h3 id="timeline-h3">
+							Junior Software Engineer - Spring Professional <br> Leusden
+							- The Netherlands
+						</h3>
+						<p id="timeline-p">Samen met collega’s een begin gemaakt voor
+							een password generator. Waarbij collega’s een wachtwoord kunnen
+							genereren door het klikken op een knop. Het nieuw gemaakte
+							wachtwoord wordt dan automatisch opgeslagen in een database.
+							Nadat een gebruiker inlogde, kan de gebruiker al zijn gegeneerde
+							wachtwoorden raadplegen op het scherm. Verder heb ik
+							verschillende online cursussen gevolgd om mezelf meer te
+							verdiepen in Java en MySQL. Ook heb ik in deze periode het
+							omscholings-traject “Make IT Work” in Amsterdam afgerond.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
-							January 2019 <br> Work
+							15-03-2018 till 01-06-2018 <br> Work
 						</h4>
 					</div>
 				</li>
 				<li class="timeline-li">
 					<div class="timeline-content">
-						<h3 id="timeline-h3">What is this content</h3>
-						<p id="timeline-p">I love you Turn my headphone down a little
-							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
-							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
-							whoa, yeah How much money you got? (Straight up) How much money
-							you got? (Straight up) How much money you got? (Straight up) How
-							much money you got? (A lot) How much money you got? (A lot) How
-							many problems you got? (A lot) How many people done doubted you?
-							(A lot) Left you out to rot? (A lot) How many pray that you flop?
-							(A lot) How many lawyers you got? (A lot) How many times you got
-							shot? (A lot) How many niggas you shot? (A lot) How many times
-							did you ride? (A lot) How many niggas done died? (A lot) How many
-							times did you cheat? (A lot) How many times did you lie? (A lot)
-							How many times did…
+						<h3 id="timeline-h3">
+							Make IT Work - HVA - Amsterdam <br> Retraining Program
+						</h3>
+						<p id="timeline-p">Courses: databases - OOP - data structures
+							- Scrum - hibernate - Spring MVC - HTML5 - JSP - Requirement
+							Engineering - software engineering tools
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
-							January 2019 <br> Education
+							13-11-2017 till 21-10-2018<br> Education
 						</h4>
 					</div>
 				</li>
 				<li class="timeline-li">
 					<div class="timeline-content">
-						<h3 id="timeline-h3">What is this content</h3>
-						<p id="timeline-p">I love you Turn my headphone down a little
-							bit, yeah For so many reasons Yeah, yeah, yeah, yeah, yeah, yeah
-							(I do), yeah, yeah yeah yeah Yeah, yeah, ah, ah, whoa, whoa,
-							whoa, yeah How much money you got? (Straight up) How much money
-							you got? (Straight up) How much money you got? (Straight up) How
-							much money you got? (A lot) How much money you got? (A lot) How
-							many problems you got? (A lot) How many people done doubted you?
-							(A lot) Left you out to rot? (A lot) How many pray that you flop?
-							(A lot) How many lawyers you got? (A lot) How many times you got
-							shot? (A lot) How many niggas you shot? (A lot) How many times
-							did you ride? (A lot) How many niggas done died? (A lot) How many
-							times did you cheat? (A lot) How many times did you lie? (A lot)
-							How many times did…
+						<h3 id="timeline-h3">
+							NHTV University of Applied Science - Breda <br>
+							International Hotel Management
+						</h3>
+						<p id="timeline-p">Courses: English - French - Imagineering -
+							CRM - accounting - event management - revenue management -
+							strategic management - finance
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
-							January 2019 <br> Education
+							01-09-2013 till 01-07-2017 <br> Education
 						</h4>
 					</div>
 				</li>
