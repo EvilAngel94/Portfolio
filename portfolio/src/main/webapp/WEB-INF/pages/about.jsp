@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+<meta name="description"
+	content="Free HTML5 Website Template by freehtml5.co" />
 <meta name="keywords"
 	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 <meta name="author" content="freehtml5.co" />
@@ -13,18 +14,23 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+	rel="stylesheet">
 
 <!-- Animate.css -->
 
 
-<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/flexslider.css"/>">
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
@@ -63,8 +69,26 @@
 				<div class="container">
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Wie is Michiel</h2>
-							<p>....</p>
+							<h2>About Michiel</h2>
+							<p>
+								Hello! I am Michiel de Smet, 25 years old and live in Zaamslag,
+								The Netherlands. My current employer is CZ, a health insurance
+								company in Tilburg (The Netherlands). At CZ I work as a junior
+								Java software engineer with one and a half years experience. <br>
+								<br> I am extremely motivated to become a better software
+								developer. In order to achieve this goal I continually learn and
+								develop my skills. By gaining experience during work hours as
+								well as spending free time coding with personal project.
+								Furthermore, I also try to read as many articles about
+								programming and follow courses to broaden my knowledge about
+								programming. <br> Some keywords about myself; Driven,
+								positive, teamplayer, music enthusiastic and passion for
+								cooking. <br> If you have any questions or want to get to
+								know me better. Do not hesitate to contact me! Click on <a
+									href="mailto:michieldesmet1994@gmail.com?Subject=I%20would%20like%20to%20get%20in%20touch!"
+									target="_top">this link</a> to send me an email, and I will get
+								in touch as soon as possible!
+							</p>
 						</div>
 					</div>
 				</div>
@@ -89,6 +113,7 @@
 									<li>Hibernate (v2 & v5)</li>
 									<li>Spring (v5.2)</li>
 									<li>IBM WebSphere</li>
+									<li>DB2</li>
 									<li>Selenium (v3.141.59)</li>
 									<li>Cucumber.io</li>
 									<li>JUnit (v4.12)</li>
@@ -134,16 +159,25 @@
 							Junior Software Engineer - CZ <br> Tilburg The Netherlands
 						</h3>
 						<p id="timeline-p">
-							Bij CZ ben ik samen met twee andere senior ontwikkelaars verantwoordelijk voor het onderhouden van het debiteuren
-							systeem. Taken die hieronder vallen zijn het implementeren van nieuwe features voor het systeem, bugs oplossen, nieuwe
-							technologieën onderzoeken die gebruikt kunnen worden binnen de huidige applicatie. Verder automatiseer ik testen, en
-							stel ik feature files op met andere teamleden voor BDD. Ook help ik teamleden met het schrijven van automatische
-							testen. <br> Wanneer ik zelfstandig te werk ga, wil ik altijd eerst het probleem begrijpen en context krijgen.
-							Dit gebeurt altijd tijdens een overleg met een ander teamlid die meer ervaring heeft met het systeem. Wanneer ik de
-							context duidelijk heb maak ik een opzet van mijn oplossing en overleg ik dit met een van de senior ontwikkelaars. Als
-							de oplossing goed gekeurd is, maak ik de unittesten eerst. Dan begin ik aan de oplossing en een controle doe ik met
-							behulp van de gemaakte unit testen plus een uitgebreidere test die het hele verloop controleert. Hierna als alles goed
-							gekeurd is wordt er een code review gedaan door een andere ontwikkelaar.
+							Together with two other senior developers we were responsible for
+							the maintenance and implementation of new features for the debtor
+							system at CZ. Part of my responsibilities are, implementing new
+							features for the system, to resolve bugs, research new
+							possibilities and technologies which could be useful for the
+							system. Furthermore, I also write automated tests and teach other
+							team members how to create automated tests. Together with other
+							team members we create feature files for the BDD tests. <br>
+							Before I am going to code, I want to completely understand the
+							context and the user story. In order to get the information I ask
+							a colleague who has more knowledge of the subject if he/she could
+							provide me with this information. When I have a clear view of
+							what needs to be done, I create a draft of my plan of approach
+							and discuss this solution with a senior developer. Once the draft
+							is approved I start and create the unit tests which help me
+							during the development process. Once the requirements are met, I
+							do an elaborate test to see if everything is working correctly.
+							After this final test of myself I ask another developer to do a
+							code review.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -154,13 +188,19 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							Junior Software Engineer - Spring Professional <br> Leusden - The Netherlands
+							Junior Software Engineer - Spring Professional <br> Leusden
+							- The Netherlands
 						</h3>
-						<p id="timeline-p">Samen met collega’s een begin gemaakt voor een password generator. Waarbij collega’s een
-							wachtwoord kunnen genereren door het klikken op een knop. Het nieuw gemaakte wachtwoord wordt dan automatisch
-							opgeslagen in een database. Nadat een gebruiker inlogde, kan de gebruiker al zijn gegeneerde wachtwoorden raadplegen
-							op het scherm. Verder heb ik verschillende online cursussen gevolgd om mezelf meer te verdiepen in Java en MySQL. Ook
-							heb ik in deze periode het omscholings-traject “Make IT Work” in Amsterdam afgerond.
+						<p id="timeline-p">Together with two other colleagues we
+							created a start for a password generator. With one click on the
+							button a password was generated for the user. The newly generated
+							password would be stored in a database and linked to a specific
+							website. Once the user is logged in he could manage all the
+							generated passwords and change if necessary or generate a new
+							one. Besides this project, I took several courses to get more
+							knowledge on Java and MySQL. Also during this period I was still
+							attending the retraining program Make IT Work at the HVA in
+							Amsterdam.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -173,8 +213,9 @@
 						<h3 id="timeline-h3">
 							Make IT Work - HVA - Amsterdam <br> Retraining Program
 						</h3>
-						<p id="timeline-p">Courses: Databases - OOP - Data Structures - SCRUM - Hibernate - Spring MVC - HTML5 - JSP -
-							Requirement Engineering - Software Engineering Tools
+						<p id="timeline-p">Courses: Databases - OOP - Data Structures
+							- SCRUM - Hibernate - Spring MVC - HTML5 - JSP - Requirement
+							Engineering - Software Engineering Tools
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -185,10 +226,12 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							NHTV University of Applied Science - Breda <br> International Hotel Management
+							NHTV University of Applied Science - Breda <br>
+							International Hotel Management
 						</h3>
-						<p id="timeline-p">Courses: English - French - Imagineering - CRM - Accounting - Event Management - Revenue
-							Management - Strategic Management - Finance
+						<p id="timeline-p">Courses: English - French - Imagineering -
+							CRM - Accounting - Event Management - Revenue Management -
+							Strategic Management - Finance
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
