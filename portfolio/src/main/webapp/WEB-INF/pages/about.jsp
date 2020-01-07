@@ -6,21 +6,15 @@
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 <!-- Animate.css -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
-
+<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
@@ -45,7 +39,6 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="portfolio.html">Portfolio</a></li>
 								<li class="active"><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>

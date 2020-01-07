@@ -5,16 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-<meta name="keywords"
-	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-<meta name="author" content="freehtml5.co" />
-
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-
 <!-- Animate.css -->
 <link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
@@ -23,10 +16,8 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
-
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
-
 <!-- Modernizr JS -->
 <script src="<c:url value="/resources/js/modernizr-2.6.2.min.js"/>"></script>
 </head>
@@ -50,7 +41,6 @@
 								<li class="active"><a href="index.jsp">Home</a></li>
 								<li><a href="portfolio.html">Portfolio</a></li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -70,8 +60,7 @@
 								<h2>It takes Dedication, Perseverance and Enjoyment to achieve your goal.</h2>
 								<p>
 									<a class="btn btn-primary btn-lg btn-demo" href="portfolio.html">Portfolio</a> <a
-										class="btn btn-primary btn-lg btn-learn" href="about.html">About</a> <a class="btn btn-primary btn-lg btn-demo"
-										href="contact.html">Contact</a>
+										class="btn btn-primary btn-lg btn-learn" href="about.html">About</a>
 								</p>
 							</div>
 						</div>

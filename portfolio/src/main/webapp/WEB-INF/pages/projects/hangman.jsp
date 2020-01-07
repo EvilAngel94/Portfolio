@@ -5,10 +5,8 @@
 <meta charset="ISO-8859-1">
 <title>Hangman</title>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-
 <!-- Animate.css -->
 <link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
@@ -92,17 +90,17 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-gameloop.png" alt="Hangman gameloop example" class="blog-bg" />
+							<img src="../resources/images/hangman/hangman-gameloop.png" alt="Hangman gameloop example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-stats.png" alt="Hangman gamestats example" class="blog-bg" />
+							<img src="../resources/images/hangman/hangman-stats.png" alt="Hangman gamestats example" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/hangman-win.png" alt="Hangman win example" class="blog-bg" />
+							<img src="../resources/images/hangman/hangman-win.png" alt="Hangman win example" class="blog-bg" />
 						</div>
 					</div>
 				</div>
