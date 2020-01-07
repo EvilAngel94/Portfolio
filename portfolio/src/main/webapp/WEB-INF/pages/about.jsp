@@ -4,22 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-	content="Free HTML5 Website Template by freehtml5.co" />
-<meta name="keywords"
-	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-<meta name="author" content="freehtml5.co" />
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
-<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
 	rel="stylesheet">
-
 <!-- Animate.css -->
-
-
 <link rel="stylesheet"
 	href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
@@ -70,21 +59,27 @@
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2>About Michiel</h2>
+							<p>Hello! I am Michiel de Smet, 25 years old and live in
+								Zaamslag, The Netherlands. My current employer is CZ, a health
+								insurance company in Tilburg (The Netherlands). At CZ I work as
+								a junior Java software engineer with one and a half years
+								experience.</p>
 							<p>
-								Hello! I am Michiel de Smet, 25 years old and live in Zaamslag,
-								The Netherlands. My current employer is CZ, a health insurance
-								company in Tilburg (The Netherlands). At CZ I work as a junior
-								Java software engineer with one and a half years experience. <br>
-								<br> I am extremely motivated to become a better software
-								developer. In order to achieve this goal I continually learn and
-								develop my skills. By gaining experience during work hours as
-								well as spending free time coding with personal project.
-								Furthermore, I also try to read as many articles about
-								programming and follow courses to broaden my knowledge about
-								programming. <br> Some keywords about myself; Driven,
-								positive, teamplayer, music enthusiastic and passion for
-								cooking. <br> If you have any questions or want to get to
-								know me better. Do not hesitate to contact me! Click on <a
+								I am extremely motivated to become a better software developer.
+								In order to achieve this goal I continually learn and develop my
+								skills. By gaining experience during work hours as well as
+								spending free time coding with personal project. Furthermore, I
+								also try to read as many articles about programming and follow
+								courses to broaden my knowledge about programming. <br>
+							</p>
+							<p>
+								<b>Some keywords about myself<br> Driven, positive,
+									teamplayer, music enthusiastic and passion for cooking.
+								</b>
+							</p>
+							<p>
+								If you have any questions or want to get to know me better. Do
+								not hesitate to contact me! Click on <a
 									href="mailto:michieldesmet1994@gmail.com?Subject=I%20would%20like%20to%20get%20in%20touch!"
 									target="_top">this link</a> to send me an email, and I will get
 								in touch as soon as possible!
@@ -110,7 +105,7 @@
 									<li>HTML / CSS</li>
 									<li>MySQL</li>
 									<li>XML</li>
-									<li>Hibernate (v2 & v5)</li>
+									<li>Hibernate (v2 and v5)</li>
 									<li>Spring (v5.2)</li>
 									<li>IBM WebSphere</li>
 									<li>DB2</li>
@@ -129,8 +124,10 @@
 									<li>Jenkins (v2)</li>
 									<li>SonarQube</li>
 									<li>Git</li>
+									<li>GitKraken</li>
 									<li>Google Cloud</li>
 									<li>Google Suite</li>
+									<li>Microsoft Suite</li>
 								</ul>
 							</div>
 						</div>
