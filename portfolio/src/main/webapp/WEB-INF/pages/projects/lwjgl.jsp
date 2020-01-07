@@ -5,13 +5,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta charset='utf-8'>
-<title>Project - Webscraping</title>
+<title>Project - LWJGL</title>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
 	rel="stylesheet">
-
 <!-- Animate.css -->
 <link rel="stylesheet"
 	href="<c:url value="/resources/css/animate.css"/>">
@@ -59,52 +57,57 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Tower Defense WebScraping</h2>
+						<h2>LWJGL</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>The initial goal of this project was to conduct market
-								research of different Tower Defense games. Besides this initial
-								goal, it was also a fun and interesting way to get more familiar
-								with (new) concepts.</p>
+							<p>TThe goal of this project is to get familiar with a gaming
+								library specially made for Java. Because I am very interested in
+								games and eventually I would like to make my own game in the
+								future, and I like a challenge so what better way then make a
+								game &#128521;</p>
 							<small><a class="icon-github"
-								href="https://github.com/EvilAngel94/website-scraping">
-									Webscraping</a></small>
+								href="https://github.com/EvilAngel94/LWJGL">lwjgl</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>For instance, the information which is relevant should be
-							saved and stored somewhere. For this reason I decided to look
-							into Google Sheets, and how to use this to save data. This
-							resulted in the use of the Sheets API, in order to use this API
-							it was necessary to use the Google Cloud Platform.</p>
-						<p>In order to implement the Sheets API, different parts of
-							the GCP were used, for example:
+						<p>This project was started when I wanted to deepen my
+							knowledge in game development. With this goal in mind I started
+							to research a lot of resources such as YouTube and Google.
+							Eventually I came across the LWJGL-framework (LightWeight Java
+							Game Library). Once I decided to go along with this framework,
+							again I consulted a lot of resources on StackOverflow, YouTube
+							and Google.</p>
+						<p>
+							With the help of different videos and articles I was able to get
+							a better understanding of the framework. Which led to a first
+							implementation and create a model on the screen. However I also
+							wanted to be able to move around and play around with light
+							display on the model itself. These different implementations led
+							to the game created. You can fly around a move the screen if you
+							download the following game. <br> <small><b>Please
+									be aware that this is only a first implementation and not a
+									complete game.</b></small>
+						</p>
+						<h3>Controls to move around</h3>
 						<ul>
-							<li>Service Account</li>
-							<li>OAuth</li>
-							<li>Sheets API</li>
+							<li>W - Forward</li>
+							<li>A - Left</li>
+							<li>S - Back</li>
+							<li>D - Right</li>
+							<li>Z - Down</li>
+							<li>X - Up</li>
+							<li>Press the right mouse button to move the camera</li>
 						</ul>
 						<br>
-						<p>Overall, this project was a good exercise to get more
-							familiar with the Selenium Framework and Jenkins. Locally, with
-							the following command 'mvn clean install' all the data is
-							gathered from the website, and stored in Google Sheets. The flow
-							of the Jenkins job was created with Jenkins Pipelines.
-							Furthermore, the JaCoCo plugin was installed to check the code
-							coverage of the project. Also it is possible to see how many
-							tests were failing or passing in the Jenkins Dashboard of the
-							project.</p>
-
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 -
-								Selenium v3.141.59 - JaCoCo v0.8.2 - Log4J2<br> Tools used:
-								<br> GitHub - GitKraken - Google Cloud Platform - SonarQube
-								- Jenkins 2
+								Technology used: <br> Java 8 - Maven (v3.2) - LWJGL
+								(v3.2.1) - Png decoder(v.1.0) - JOML (v.1.9.14) - Log4J2 <br>
+								Tools used: <br> GitHub - GitKraken
 							</p>
 						</blockquote>
 					</div>
@@ -116,58 +119,27 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Web scraping pictures</h2>
+						<h2>LWJGL project pictures</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img
-								src="../resources/images/webscraping/webscraping_data_example.jpg"
-								alt="Webscraping data example" class="blog-bg" />
-						</div>
-					</div>
-				</div>
-
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Jenkins Pictures</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/webscraping/jenkins_dashboard.jpg"
-								alt="Webscraping dashboard" class="blog-bg" />
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<img
-								src="../resources/images/webscraping/jenkins_job_overview.jpg"
-								alt="Webscraping job overview" class="blog-bg" />
+							<img src="../resources/images/lwjgl/lwjgl_rabit_full_light.png"
+								alt="Rabit model full light" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/webscraping/jenkins_stage.jpg"
-								alt="Webscraping stage overview" class="blog-bg" />
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<img src="../resources/images/webscraping/jenkins_jacoco.jpg"
-								alt="Webscraping jacoco data" class="blog-bg" />
+							<img src="../resources/images/lwjgl/lwjgl_rabit_spot_light.png"
+								alt="Rabit model spot light" class="blog-bg" />
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
 							<img
-								src="../resources/images/webscraping/jenkins_test_result.jpg"
-								alt="Webscraping test results" class="blog-bg" />
+								src="../resources/images/lwjgl/lwjgl_rabit_triangle_compose.png"
+								alt="Rabit model how it is created" class="blog-bg" />
 						</div>
 					</div>
 				</div>
@@ -187,5 +159,6 @@
 	<script src="<c:url value="/resources/js/jquery.flexslider-min.js"/>"></script>
 	<!-- Main -->
 	<script src="<c:url value="/resources/js/main.js"/>"></script>
+
 </body>
 </html>

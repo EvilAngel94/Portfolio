@@ -22,19 +22,25 @@ public class ProjectController {
 		LOGGER.info("Hangman project is being created..");
 		return new ModelAndView(PREFIX + "hangman");
 	}
-	
+
 	@RequestMapping(value = PREFIX + "webscraping", method = RequestMethod.GET)
 	public ModelAndView webscrapingProject() {
 		LOGGER.info("webscraping project is being created..");
 		return new ModelAndView(PREFIX + "webscraping");
 	}
-	
+
+	@RequestMapping(value = PREFIX + "lwjgl", method = RequestMethod.GET)
+	public ModelAndView lwjglProject() {
+		LOGGER.info("lwjgl project is being created..");
+		return new ModelAndView(PREFIX + "lwjgl");
+	}
+
 	@RequestMapping(value = PREFIX + "returnToPortfolio", method = RequestMethod.GET)
 	public ModelAndView returnToPortfolioOverview() {
 		LOGGER.info("Returning to portfolio overview");
 		return new ModelAndView("redirect:/portfolio.html");
 	}
-	
+
 	@RequestMapping(value = PREFIX + "returnToIndex", method = RequestMethod.GET)
 	public ModelAndView returToIndexPage() {
 		LOGGER.info("Returning to homepage");

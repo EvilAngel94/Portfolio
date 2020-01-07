@@ -6,15 +6,20 @@
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+	rel="stylesheet">
 <!-- Animate.css -->
-<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/animate.css"/>">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/flexslider.css"/>">
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
@@ -53,15 +58,18 @@
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Portfolio</h2>
-						<p>Within this page of the website. Different personal projects are displayed. Each of these project have a link to
-							Github. As well as a short introduction to the project and why the project was made.</p>
+						<p>Within this page of the website. Different personal
+							projects are displayed. Each of these project have a link to
+							Github. As well as a short introduction to the project and why
+							the project was made.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="fh5co-portfolio animate-box">
 							<a href="projects/hangman.html">
-								<div class="portfolio-entry" style="background-image: url(resources/images/hangman-project.jpg);"></div>
+								<div class="portfolio-entry"
+									style="background-image: url(resources/images/hangman-project.jpg); object-fit: contain;"></div>
 								<div class="portfolio-text">
 									<h3>Hangman project</h3>
 									<ul class="stuff">
@@ -74,9 +82,24 @@
 					<div class="col-md-4">
 						<div class="fh5co-portfolio animate-box">
 							<a href="projects/webscraping.html">
-								<div class="portfolio-entry" style="background-image: url(resources/images/webscraping-project.jpg);"></div>
+								<div class="portfolio-entry"
+									style="background-image: url(resources/images/webscraping-project.jpg); object-fit: contain;"></div>
 								<div class="portfolio-text">
 									<h3>Web scraping project</h3>
+									<ul class="stuff">
+										<li>Go to the project</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-portfolio animate-box">
+							<a href="projects/lwjgl.html">
+								<div class="portfolio-entry"
+									style="background-image: url(resources/images/lwjgl-project.png); object-fit: contain;"></div>
+								<div class="portfolio-text">
+									<h3>LWJGL project</h3>
 									<ul class="stuff">
 										<li>Go to the project</li>
 									</ul>
