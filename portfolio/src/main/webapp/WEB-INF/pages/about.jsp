@@ -9,8 +9,6 @@
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 <!-- Animate.css -->
 <link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css"/>">
 <!-- Bootstrap  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
@@ -19,6 +17,8 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
 <script src="<c:url value="/resources/js/modernizr-2.6.2.min.js"/>"></script>
+<!-- Script Font Awesome -->
+<script src="https://kit.fontawesome.com/384b439c20.js"></script>
 </head>
 <body>
 
@@ -52,30 +52,28 @@
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2>About Michiel</h2>
-							<p>Hello! I am Michiel de Smet, 25 years old and live in
-								Zaamslag, The Netherlands. My current employer is CZ, a health
-								insurance company in Tilburg (The Netherlands). At CZ I work as
-								a junior Java software engineer with one and a half years
-								experience.</p>
+							<p>Hello! I am Michiel de Smet, 25 years old and live in Zaamslag, The
+								Netherlands. My current employer is CZ, a health insurance company in Tilburg (The
+								Netherlands). At CZ I work as a junior Java software engineer with one and a half
+								years experience.</p>
 							<p>
-								I am extremely motivated to become a better software developer.
-								In order to achieve this goal I continually learn and develop my
-								skills. By gaining experience during work hours as well as
-								spending free time coding with personal project. Furthermore, I
-								also try to read as many articles about programming and follow
+								I am extremely motivated to become a better software developer. In order to
+								achieve this goal I continually learn and develop my skills. By gaining experience
+								during work hours as well as spending free time coding with personal project.
+								Furthermore, I also try to read as many articles about programming and follow
 								courses to broaden my knowledge about programming. <br>
 							</p>
 							<p>
-								<b>Some keywords about myself<br> Driven, positive,
-									teamplayer, music enthusiastic and passion for cooking.
+								<b>Some keywords about myself<br> Driven, positive, teamplayer, music
+									enthusiastic and passion for cooking.
 								</b>
 							</p>
 							<p>
-								If you have any questions or want to get to know me better. Do
-								not hesitate to contact me! Click on <a
+								If you have any questions or want to get to know me better. Do not hesitate to
+								contact me! Click on <a
 									href="mailto:michieldesmet1994@gmail.com?Subject=I%20would%20like%20to%20get%20in%20touch!"
-									target="_top">this link</a> to send me an email, and I will get
-								in touch as soon as possible!
+									target="_top">this link</a> to send me an email, and I will get in touch as soon
+								as possible!
 							</p>
 						</div>
 					</div>
@@ -149,25 +147,21 @@
 							Junior Software Engineer - CZ <br> Tilburg The Netherlands
 						</h3>
 						<p id="timeline-p">
-							Together with two other senior developers we were responsible for
-							the maintenance and implementation of new features for the debtor
-							system at CZ. Part of my responsibilities are, implementing new
-							features for the system, to resolve bugs, research new
-							possibilities and technologies which could be useful for the
-							system. Furthermore, I also write automated tests and teach other
-							team members how to create automated tests. Together with other
-							team members we create feature files for the BDD tests. <br>
-							Before I am going to code, I want to completely understand the
-							context and the user story. In order to get the information I ask
-							a colleague who has more knowledge of the subject if he/she could
-							provide me with this information. When I have a clear view of
-							what needs to be done, I create a draft of my plan of approach
-							and discuss this solution with a senior developer. Once the draft
-							is approved I start and create the unit tests which help me
-							during the development process. Once the requirements are met, I
-							do an elaborate test to see if everything is working correctly.
-							After this final test of myself I ask another developer to do a
-							code review.
+							Together with two other senior developers we were responsible for the maintenance
+							and implementation of new features for the debtor system at CZ. Part of my
+							responsibilities are, implementing new features for the system, to resolve bugs,
+							research new possibilities and technologies which could be useful for the system.
+							Furthermore, I also write automated tests and teach other team members how to
+							create automated tests. Together with other team members we create feature files
+							for the BDD tests. <br> Before I am going to code, I want to completely
+							understand the context and the user story. In order to get the information I ask a
+							colleague who has more knowledge of the subject if he/she could provide me with
+							this information. When I have a clear view of what needs to be done, I create a
+							draft of my plan of approach and discuss this solution with a senior developer.
+							Once the draft is approved I start and create the unit tests which help me during
+							the development process. Once the requirements are met, I do an elaborate test to
+							see if everything is working correctly. After this final test of myself I ask
+							another developer to do a code review.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -178,18 +172,15 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							Junior Software Engineer - Spring Professional <br> Leusden
-							- The Netherlands
+							Junior Software Engineer - Spring Professional <br> Leusden - The Netherlands
 						</h3>
-						<p id="timeline-p">Together with two other colleagues we
-							created a start for a password generator. With one click on the
-							button a password was generated for the user. The newly generated
-							password would be stored in a database and linked to a specific
-							website. Once the user is logged in he could manage all the
-							generated passwords and change if necessary or generate a new
-							one. Besides this project, I took several courses to get more
-							knowledge on Java and MySQL. Also during this period I was still
-							attending the retraining program Make IT Work at the HVA in
+						<p id="timeline-p">Together with two other colleagues we created a start for a
+							password generator. With one click on the button a password was generated for the
+							user. The newly generated password would be stored in a database and linked to a
+							specific website. Once the user is logged in he could manage all the generated
+							passwords and change if necessary or generate a new one. Besides this project, I
+							took several courses to get more knowledge on Java and MySQL. Also during this
+							period I was still attending the retraining program Make IT Work at the HVA in
 							Amsterdam.
 					</div>
 					<div class="timeline-time">
@@ -203,9 +194,9 @@
 						<h3 id="timeline-h3">
 							Make IT Work - HVA - Amsterdam <br> Retraining Program
 						</h3>
-						<p id="timeline-p">Courses: Databases - OOP - Data Structures
-							- SCRUM - Hibernate - Spring MVC - HTML5 - JSP - Requirement
-							Engineering - Software Engineering Tools
+						<p id="timeline-p">Courses: Databases - OOP - Data Structures - SCRUM -
+							Hibernate - Spring MVC - HTML5 - JSP - Requirement Engineering - Software
+							Engineering Tools
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -216,12 +207,10 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							NHTV University of Applied Science - Breda <br>
-							International Hotel Management
+							NHTV University of Applied Science - Breda <br> International Hotel Management
 						</h3>
-						<p id="timeline-p">Courses: English - French - Imagineering -
-							CRM - Accounting - Event Management - Revenue Management -
-							Strategic Management - Finance
+						<p id="timeline-p">Courses: English - French - Imagineering - CRM - Accounting -
+							Event Management - Revenue Management - Strategic Management - Finance
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -237,7 +226,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+		<a href="#" class="js-gotop"><i class="far fa-hand-point-up"></i></a>
 	</div>
 
 	<!-- jQuery -->

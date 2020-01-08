@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,10 +18,11 @@
 				<div class="col-md-12 text-center">
 					<h3>Get in touch!</h3>
 					<ul class="fh5co-social-icons">
-						<li><a href="https://www.linkedin.com/in/michiel-de-smet-163205b2/" target=”_blank”> <i
-								class="fab fa-linkedin"></i>
+						<li><a href="https://www.linkedin.com/in/michiel-de-smet-163205b2/"
+							target=”_blank”> <i class="fab fa-linkedin"></i>
 						</a></li>
-						<li><a href="https://github.com/EvilAngel94" target=”_blank”> <i class="fab fa-github"></i>
+						<li><a href="https://github.com/EvilAngel94" target=”_blank”> <i
+								class="fab fa-github"></i>
 						</a></li>
 					</ul>
 				</div>

@@ -63,6 +63,10 @@ a {
 	transition: 0.5s;
 }
 
+#icon-colour{
+	color: #DD356E;
+}
+
 a:hover, a:active, a:focus {
 	color: #DD356E;
 	outline: none;

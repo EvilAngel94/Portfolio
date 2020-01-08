@@ -7,25 +7,19 @@
 <meta charset='utf-8'>
 <title>Project - LWJGL</title>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 <!-- Animate.css -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/animate.css"/>">
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/icomoon.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet"
-	href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
 <script src="<c:url value="/resources/js/modernizr-2.6.2.min.js"/>"></script>
+<!-- Script Font Awesome -->
+<script src="https://kit.fontawesome.com/384b439c20.js"></script>
 </head>
 
 <body>
@@ -43,8 +37,8 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><i class="icon-arrow-left"></i><a
-									href="returnToPortfolio">Return to portfolio</a></li>
+								<li><i class="far fa-hand-point-left"></i><a href="returnToPortfolio">Return
+										to portfolio</a></li>
 							</ul>
 						</div>
 					</div>
@@ -64,33 +58,28 @@
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>TThe goal of this project is to get familiar with a gaming
-								library specially made for Java. Because I am very interested in
-								games and eventually I would like to make my own game in the
-								future, and I like a challenge so what better way then make a
-								game &#128521;</p>
-							<small><a class="icon-github"
-								href="https://github.com/EvilAngel94/LWJGL">lwjgl</a></small>
+							<p>TThe goal of this project is to get familiar with a gaming library specially
+								made for Java. Because I am very interested in games and eventually I would like
+								to make my own game in the future, and I like a challenge so what better way then
+								make a game &#128521;</p>
+							<small><i class="fab fa-github-alt" id="icon-colour"></i><a
+								href="https://github.com/EvilAngel94/LWJGL" target="_blank">lwjgl</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>This project was started when I wanted to deepen my
-							knowledge in game development. With this goal in mind I started
-							to research a lot of resources such as YouTube and Google.
-							Eventually I came across the LWJGL-framework (LightWeight Java
-							Game Library). Once I decided to go along with this framework,
-							again I consulted a lot of resources on StackOverflow, YouTube
-							and Google.</p>
+						<p>This project was started when I wanted to deepen my knowledge in game
+							development. With this goal in mind I started to research a lot of resources such
+							as YouTube and Google. Eventually I came across the LWJGL-framework (LightWeight
+							Java Game Library). Once I decided to go along with this framework, again I
+							consulted a lot of resources on StackOverflow, YouTube and Google.</p>
 						<p>
-							With the help of different videos and articles I was able to get
-							a better understanding of the framework. Which led to a first
-							implementation and create a model on the screen. However I also
-							wanted to be able to move around and play around with light
-							display on the model itself. These different implementations led
-							to the game created. You can fly around a move the screen if you
-							download the following game. <br> <small><b>Please
-									be aware that this is only a first implementation and not a
-									complete game.</b></small>
+							With the help of different videos and articles I was able to get a better
+							understanding of the framework. Which led to a first implementation and create a
+							model on the screen. However I also wanted to be able to move around and play
+							around with light display on the model itself. These different implementations led
+							to the game created. You can fly around a move the screen if you download the
+							following game. <br> <small><b>Please be aware that this is only a
+									first implementation and not a complete game.</b></small>
 						</p>
 						<h3>Controls to move around</h3>
 						<ul>
@@ -105,9 +94,9 @@
 						<br>
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven (v3.2) - LWJGL
-								(v3.2.1) - Png decoder(v.1.0) - JOML (v.1.9.14) - Log4J2 <br>
-								Tools used: <br> GitHub - GitKraken
+								Technology used: <br> Java 8 - Maven (v3.2) - LWJGL (v3.2.1) - Png
+								decoder(v.1.0) - JOML (v.1.9.14) - Log4J2 <br> Tools used: <br> GitHub -
+								GitKraken
 							</p>
 						</blockquote>
 					</div>
@@ -137,8 +126,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="fh5co-blog animate-box">
-							<img
-								src="../resources/images/lwjgl/lwjgl_rabit_triangle_compose.png"
+							<img src="../resources/images/lwjgl/lwjgl_rabit_triangle_compose.png"
 								alt="Rabit model how it is created" class="blog-bg" />
 						</div>
 					</div>
@@ -146,7 +134,9 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="far fa-hand-point-up"></i></a>
+	</div>
 	<!-- jQuery -->
 	<script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
 	<!-- jQuery Easing -->
