@@ -69,14 +69,19 @@
 					<div class="col-md-7 animate-box">
 						<p>During the development of this project, different steps were taken in order
 							to create the game it is at this moment. The first version of the game was solely
-							guessing words and nothing more than that. The second version of the game, it was
-							possible to also choose a different lengths of words. Also the word is randomly
-							selected from 200 different words. In the latest version of the game, the player
-							can now see their own player stats. The amount of games a player has played, the
-							total amount of words solved and how many lives are lost while playing.</p>
+							guessing words and nothing more than that. In the second version of the game, it
+							was also possible for a player to choose different lengths of words. Furthermore,
+							once the player made a choice of their word length, the word is randomly selected
+							from 200 different words with the selected length. In the latest version of the
+							game, the player can now see their own player statistics. The amount of games a
+							player has played, the total amount of words solved and how many lives are lost
+							while playing.</p>
 
-						<p>Future releases and ideas for improvements for the game are listed at the
-							wiki page on GitHub.</p>
+						<p>
+							Future releases and ideas for improvements for the game are listed at the <a
+								href="https://github.com/EvilAngel94/Hangman/wiki" target="_blank"> wiki page</a>
+							on GitHub.
+						</p>
 						<blockquote>
 							<p>
 								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 - Log4J2<br>

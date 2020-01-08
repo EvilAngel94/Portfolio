@@ -54,17 +54,18 @@
 							<h2>About Michiel</h2>
 							<p>Hello! I am Michiel de Smet, 25 years old and live in Zaamslag, The
 								Netherlands. My current employer is CZ, a health insurance company in Tilburg (The
-								Netherlands). At CZ I work as a junior Java software engineer with one and a half
+								Netherlands). At CZ I work as a junior Java software engineer with in total 2
 								years experience.</p>
 							<p>
 								I am extremely motivated to become a better software developer. In order to
 								achieve this goal I continually learn and develop my skills. By gaining experience
-								during work hours as well as spending free time coding with personal project.
-								Furthermore, I also try to read as many articles about programming and follow
-								courses to broaden my knowledge about programming. <br>
+								during work hours as well as spending free time coding with personal project. For
+								example this portfolio project and other projects found in the portfolio tab.
+								Furthermore, I also try to read many articles about programming and follow courses
+								and blogs to broaden my knowledge about programming. <br>
 							</p>
 							<p>
-								<b>Some keywords about myself<br> Driven, positive, teamplayer, music
+								<b>Some keywords about myself<br> Dedicated, positive, teamplayer, music
 									enthusiastic and passion for cooking.
 								</b>
 							</p>
@@ -81,7 +82,6 @@
 			</div>
 		</div>
 
-		<!-- In dit stuk moet je CV komen. Met de verschillende onderdelen.. Ervaring, school, cursus etc... -->
 		<div id="fh5co-features">
 			<div class="container">
 				<div class="services-padding">
@@ -149,19 +149,19 @@
 						<p id="timeline-p">
 							Together with two other senior developers we were responsible for the maintenance
 							and implementation of new features for the debtor system at CZ. Part of my
-							responsibilities are, implementing new features for the system, to resolve bugs,
-							research new possibilities and technologies which could be useful for the system.
+							responsibilities are, implementing new features for the system, resolve bugs,
+							research new possibilities and technologies which can be useful for the system.
 							Furthermore, I also write automated tests and teach other team members how to
 							create automated tests. Together with other team members we create feature files
-							for the BDD tests. <br> Before I am going to code, I want to completely
-							understand the context and the user story. In order to get the information I ask a
-							colleague who has more knowledge of the subject if he/she could provide me with
-							this information. When I have a clear view of what needs to be done, I create a
-							draft of my plan of approach and discuss this solution with a senior developer.
-							Once the draft is approved I start and create the unit tests which help me during
-							the development process. Once the requirements are met, I do an elaborate test to
-							see if everything is working correctly. After this final test of myself I ask
-							another developer to do a code review.
+							for our BDD tests. <br> Before I want to start to code and solve a problem, I
+							want to completely understand the context and the user story. In order to get the
+							information I ask a colleague who has more knowledge of the subject if he/she could
+							provide me with this information. When I have a clear understanding of what needs
+							to be done, I create a draft of my plan of approach and discuss this solution with
+							a senior developer. Once the draft is approved I start and create the unit tests
+							which help me during the development process. Once the requirements are met, I do
+							an elaborate test to see if everything is working correctly. After this final test
+							of myself I ask another developer to do a code review.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -174,14 +174,14 @@
 						<h3 id="timeline-h3">
 							Junior Software Engineer - Spring Professional <br> Leusden - The Netherlands
 						</h3>
-						<p id="timeline-p">Together with two other colleagues we created a start for a
+						<p id="timeline-p">Together with two other colleagues we started to create a
 							password generator. With one click on the button a password was generated for the
-							user. The newly generated password would be stored in a database and linked to a
-							specific website. Once the user is logged in he could manage all the generated
-							passwords and change if necessary or generate a new one. Besides this project, I
-							took several courses to get more knowledge on Java and MySQL. Also during this
-							period I was still attending the retraining program Make IT Work at the HVA in
-							Amsterdam.
+							user. The newly generated password is stored in a database. Plus a link is created
+							to the specific website and would save the username and password used to login.
+							Once the user is logged in he can manage all the generated passwords and change if
+							necessary or generate a new one. Besides this project, I took several courses to
+							get more knowledge on Java and MySQL. Also during this period I was still attending
+							the retraining program Make IT Work at the HVA in Amsterdam.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">

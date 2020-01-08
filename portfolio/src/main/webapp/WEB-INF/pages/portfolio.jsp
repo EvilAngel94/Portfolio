@@ -77,7 +77,7 @@
 						<div class="fh5co-portfolio animate-box">
 							<a href="projects/webscraping.html">
 								<div class="portfolio-entry"
-									style="background-image: url(resources/images/webscraping-project.jpg); object-fit: contain;"></div>
+									style="background-image: url(resources/images/webscraping-project.png); object-fit: contain;"></div>
 								<div class="portfolio-text">
 									<h3>Web scraping project</h3>
 									<ul class="stuff">

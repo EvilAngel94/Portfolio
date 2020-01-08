@@ -67,10 +67,11 @@
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>For instance, the information which is relevant should be saved and stored
-							somewhere. For this reason I decided to look into Google Sheets, and how to use
-							this to save data. This resulted in the use of the Sheets API, in order to use this
-							API it was necessary to use the Google Cloud Platform.</p>
+						<p>As for this project the goal is to save relevant information regarding other
+							tower defense games. In order to save relevant data, it should be stored somewhere.
+							With this initial goal in mind, I decided to look into Google Sheets. This resulted
+							in the use of the Sheets API, in order to use this API it was necessary to use the
+							Google Cloud Platform (GCP). This was also the first encounter with the GCP.</p>
 						<p>In order to implement the Sheets API, different parts of the GCP were used,
 							for example:
 						<ul>
@@ -80,7 +81,7 @@
 						</ul>
 						<br>
 						<p>Overall, this project was a good exercise to get more familiar with the
-							Selenium Framework and Jenkins. Locally, with the following command 'mvn clean
+							Selenium Framework, Jenkins and the GCP. Locally, with the following command 'mvn clean
 							install' all the data is gathered from the website, and stored in Google Sheets.
 							The flow of the Jenkins job was created with Jenkins Pipelines. Furthermore, the
 							JaCoCo plugin was installed to check the code coverage of the project. Also it is

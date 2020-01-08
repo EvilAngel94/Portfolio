@@ -58,10 +58,11 @@
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>TThe goal of this project is to get familiar with a gaming library specially
-								made for Java. Because I am very interested in games and eventually I would like
-								to make my own game in the future, and I like a challenge so what better way then
-								make a game &#128521;</p>
+							<p>The goal of this project is to get familiar with a game library specially
+								made for Java. Because I am very interested in games and in the future I would
+								like to make my own game. Therefore it makes sense to dive into a challenge and
+								get more familiar with the Framework. Which could lead eventually in a self made
+								game &#128521;</p>
 							<small><i class="fab fa-github-alt" id="icon-colour"></i><a
 								href="https://github.com/EvilAngel94/LWJGL" target="_blank">lwjgl</a></small>
 						</div>
