@@ -64,7 +64,7 @@
 								get more familiar with the Framework. Which could lead eventually in a self made
 								game &#128521;</p>
 							<small><i class="fab fa-github-alt" id="icon-colour"></i><a
-								href="https://github.com/EvilAngel94/LWJGL" target="_blank">lwjgl</a></small>
+								href="https://github.com/EvilAngel94/LWJGL" target="_blank"> lwjgl</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
@@ -78,8 +78,8 @@
 							understanding of the framework. Which led to a first implementation and create a
 							model on the screen. However I also wanted to be able to move around and play
 							around with light display on the model itself. These different implementations led
-							to the game created. You can fly around a move the screen if you download the
-							following game. <br> <small><b>Please be aware that this is only a
+							to the game created. You can fly around a move the screen if you download <a href="https://drive.google.com/open?id=1qA38vKweFtzdnzBHYaHF_figfuPdLfB8" target="_blank">the
+							following game. </a><br> You are redirected to Google Drive. <small><b>Please be aware that this is only a
 									first implementation and not a complete game.</b></small>
 						</p>
 						<h3>Controls to move around</h3>
