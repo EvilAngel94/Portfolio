@@ -78,7 +78,7 @@
 							understanding of the framework. Which led to a first implementation and create a
 							model on the screen. However I also wanted to be able to move around and play
 							around with light display on the model itself. These different implementations led
-							to the game created. You can fly around a move the screen if you download <a href="https://drive.google.com/open?id=1qA38vKweFtzdnzBHYaHF_figfuPdLfB8" target="_blank">the
+							to the game created. You can fly around a move the screen if you download <a href="https://drive.google.com/open?id=1-4FK8E9NAeTAvKPJxZ4mtjgHqmMv9iAo" target="_blank">the
 							following game. </a><br> You are redirected to Google Drive. <small><b>Please be aware that this is only a
 									first implementation and not a complete game.</b></small>
 						</p>
@@ -90,7 +90,7 @@
 							<li>D - Right</li>
 							<li>Z - Down</li>
 							<li>X - Up</li>
-							<li>Press the right mouse button to move the camera</li>
+							<li>Press and hold the right mouse button to move the camera</li>
 						</ul>
 						<br>
 						<blockquote>
