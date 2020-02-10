@@ -35,6 +35,12 @@ public class ProjectController {
 		return new ModelAndView(PREFIX + "lwjgl");
 	}
 
+	@RequestMapping(value = PREFIX + "portfolio", method = RequestMethod.GET)
+	public ModelAndView portfolioProject() {
+		LOGGER.info("portfolio project is created..");
+		return new ModelAndView(PREFIX + "portfolio");
+	}
+
 	@RequestMapping(value = PREFIX + "returnToPortfolio", method = RequestMethod.GET)
 	public ModelAndView returnToPortfolioOverview() {
 		LOGGER.info("Returning to portfolio overview");
@@ -46,4 +52,5 @@ public class ProjectController {
 		LOGGER.info("Returning to homepage");
 		return new ModelAndView("redirect:/index.html");
 	}
+
 }
