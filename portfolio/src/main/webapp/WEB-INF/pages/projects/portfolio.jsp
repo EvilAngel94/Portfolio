@@ -87,9 +87,10 @@
 							Platform. With the help of the <a
 								href="https://cloud.google.com/appengine" target="_blank">App
 								Engine</a>.
+							If you would like to see more about the project and see the steps
 						<blockquote>
 							<p>
-								Technology used: <br> Java 11 - Maven v3.2 - Log4J2 -
+								Technology used: <br> Java 11 - Maven v3.2 - 
 								Spring MVC v5.2 <br> Tools used: <br> GitHub -
 								GitKraken - Google Cloud Platform - SonarQube
 							</p>
