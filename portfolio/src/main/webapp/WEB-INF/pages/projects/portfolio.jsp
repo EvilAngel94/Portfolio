@@ -53,23 +53,35 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Tower Defense WebScraping</h2>
+						<h2>Portfolio project</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-5 animate-box">
 						<div class="user-frame">
 							<h3>Why this project</h3>
-							<p>The initial goal for this project was to have one core
-								place to show my programming project to the world.</p>
+							<p>The initial goal of this project was to get familiar with
+								the whole process of development. In other words, from the start
+								of by creating the project. Followed by development and as the
+								final stage a deployment.</p>
 							<small><i class="fab fa-github-alt" id="icon-colour"></i><a
 								href="https://github.com/EvilAngel94/Portfolio" target="_blank">
 									Portfolio</a></small>
 						</div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<p>The initial goal for this project was to have one core
-							place to show my programming project to the world.</p>
+						<p>The website is also a way to display the projects I have
+							been working on. For each of these projects a description is
+							provided to explain the purpose of the project. Additionally,
+							pictures are also added to the project to provide the results,
+							and clarify the explanation.</p>
+
+						<p>Furthermore, this should also help to display my CV and
+							motivation in a different manner. With the purpose to emphasise
+							my enthusiasm and drive for developing. Pictures are not attached
+							to the project, in a similar manner as with the other projects.
+							Due to the fact that this website is the project, and everything
+							you see on your screen is part of the project &#128515;</p>
 						<p>
 							The deployement of the website is done via the Google Cloud
 							Platform. With the help of the <a

@@ -84,7 +84,7 @@
 						</p>
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 - Log4J2<br>
+								Technology used: <br> Java 11 - Maven v3.2 - JUnit v4.12 - Log4J2 - XML<br>
 								Tools used: <br> GitHub - GitKraken
 							</p>
 						</blockquote>

@@ -90,7 +90,7 @@
 
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven v3.2 - JUnit v4.12 - Selenium v3.141.59
+								Technology used: <br> Java 11 - Maven v3.2 - JUnit v4.12 - Selenium v3.141.59
 								- JaCoCo v0.8.2 - Log4J2<br> Tools used: <br> GitHub - GitKraken -
 								Google Cloud Platform - SonarQube - Jenkins 2
 							</p>
