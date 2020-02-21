@@ -83,11 +83,10 @@
 							Due to the fact that this website is the project, and everything
 							you see on your screen is part of the project &#128515;</p>
 						<p>
-							The deployement of the website is done via the Google Cloud
-							Platform. With the help of the <a
+							The deployement of the website is done with help of the Google Cloud
+							Platform. More specifically, with the <a
 								href="https://cloud.google.com/appengine" target="_blank">App
 								Engine</a>.
-							If you would like to see more about the project and see the steps
 						<blockquote>
 							<p>
 								Technology used: <br> Java 11 - Maven v3.2 - 

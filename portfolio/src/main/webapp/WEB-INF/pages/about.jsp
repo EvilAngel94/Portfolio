@@ -115,6 +115,7 @@
 								<ul class="fh5co-footer-links">
 									<li>Maven (v3.2)</li>
 									<li>Jenkins (v2)</li>
+									<li>Postman</li>
 									<li>SonarQube</li>
 									<li>Git</li>
 									<li>GitKraken</li>
