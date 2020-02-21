@@ -95,7 +95,7 @@
 						<br>
 						<blockquote>
 							<p>
-								Technology used: <br> Java 8 - Maven (v3.2) - LWJGL (v3.2.1) - Png
+								Technology used: <br> Java 11 - Maven (v3.2) - LWJGL (v3.2.1) - Png
 								decoder(v.1.0) - JOML (v.1.9.14) - Log4J2 <br> Tools used: <br> GitHub -
 								GitKraken
 							</p>

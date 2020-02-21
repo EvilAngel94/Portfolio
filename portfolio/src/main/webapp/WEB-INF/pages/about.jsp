@@ -91,13 +91,15 @@
 							<div class="feature-left">
 								<h3>Programming Skills</h3>
 								<ul class="fh5co-footer-links">
-									<li>Java 8</li>
+									<li>Java 8 / Java 11</li>
 									<li>JavaScript</li>
 									<li>HTML / CSS</li>
 									<li>MySQL</li>
 									<li>XML</li>
 									<li>Hibernate (v2 and v5)</li>
 									<li>Spring (v5.2)</li>
+									<li>Spring Boot</li>
+									<li>REST protocol</li>
 									<li>IBM WebSphere</li>
 									<li>DB2</li>
 									<li>Selenium (v3.141.59)</li>
@@ -113,12 +115,14 @@
 								<ul class="fh5co-footer-links">
 									<li>Maven (v3.2)</li>
 									<li>Jenkins (v2)</li>
+									<li>Postman</li>
 									<li>SonarQube</li>
 									<li>Git</li>
 									<li>GitKraken</li>
 									<li>Google Cloud</li>
 									<li>Google Suite</li>
 									<li>Microsoft Suite</li>
+									<li>Microsoft DevOps</li>
 								</ul>
 							</div>
 						</div>
