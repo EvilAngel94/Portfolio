@@ -1,8 +1,7 @@
 package portfolio.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -14,32 +13,32 @@ public class ProjectController {
 		super();
 	}
 
-	@RequestMapping(value = PREFIX + "hangman", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "hangman")
 	public ModelAndView hangmanProject() {
 		return new ModelAndView(PREFIX + "hangman");
 	}
 
-	@RequestMapping(value = PREFIX + "webscraping", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "webscraping")
 	public ModelAndView webscrapingProject() {
 		return new ModelAndView(PREFIX + "webscraping");
 	}
 
-	@RequestMapping(value = PREFIX + "lwjgl", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "lwjgl")
 	public ModelAndView lwjglProject() {
 		return new ModelAndView(PREFIX + "lwjgl");
 	}
 
-	@RequestMapping(value = PREFIX + "portfolio", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "portfolio")
 	public ModelAndView portfolioProject() {
 		return new ModelAndView(PREFIX + "portfolio");
 	}
 
-	@RequestMapping(value = PREFIX + "returnToPortfolio", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "returnToPortfolio")
 	public ModelAndView returnToPortfolioOverview() {
 		return new ModelAndView("redirect:/portfolio.html");
 	}
 
-	@RequestMapping(value = PREFIX + "returnToIndex", method = RequestMethod.GET)
+	@GetMapping(value = PREFIX + "returnToIndex")
 	public ModelAndView returToIndexPage() {
 		return new ModelAndView("redirect:/index.html");
 	}

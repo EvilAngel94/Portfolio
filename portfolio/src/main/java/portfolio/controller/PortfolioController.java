@@ -1,8 +1,8 @@
 package portfolio.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -15,7 +15,7 @@ public class PortfolioController {
 		super();
 	}
 
-	@RequestMapping(method = RequestMethod.GET)
+	@GetMapping
 	public ModelAndView portfolio() {
 		return new ModelAndView(VIEW_PORTFOLIO);
 	}
