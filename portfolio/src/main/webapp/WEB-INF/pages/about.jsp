@@ -6,13 +6,17 @@
 <title>Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+	rel="stylesheet">
 <!-- Animate.css -->
-<link rel="stylesheet" href="<c:url value="/resources/css/animate.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/animate.css"/>">
 <!-- Bootstrap  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/bootstrap.css"/>">
 <!-- Flexslider  -->
-<link rel="stylesheet" href="<c:url value="/resources/css/flexslider.css"/>">
+<link rel="stylesheet"
+	href="<c:url value="/resources/css/flexslider.css"/>">
 <!-- Theme style  -->
 <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <!-- Modernizr JS -->
@@ -52,29 +56,31 @@
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2>About Michiel</h2>
-							<p>Hello! I am Michiel de Smet, 25 years old and live in Zaamslag, The
-								Netherlands. My current employer is CZ, a health insurance company in Tilburg (The
-								Netherlands). At CZ I work as a junior Java software engineer with in total 2
-								years experience.</p>
+							<p>Hello! I am Michiel de Smet, 25 years old and live in
+								Zaamslag, The Netherlands. My current employer is Axians, a
+								consultant company in Merelbeke(Belgium). At Axians I work as a
+								junior Java software engineer with in total 2 years experience.</p>
 							<p>
-								I am extremely motivated to become a better software developer. In order to
-								achieve this goal I continually learn and develop my skills. By gaining experience
-								during work hours as well as spending free time coding with personal project. For
-								example this portfolio project and other projects found in the portfolio tab.
-								Furthermore, I also try to read many articles about programming and follow courses
-								and blogs to broaden my knowledge about programming. <br>
+								I am extremely motivated to become a better software developer.
+								In order to achieve this goal I continually learn and develop my
+								skills. By gaining experience during work hours as well as
+								spending free time coding with personal project. For example
+								this portfolio project and other projects found in the portfolio
+								tab. Furthermore, I also try to read many articles about
+								programming and follow courses and blogs to broaden my knowledge
+								about programming. <br>
 							</p>
 							<p>
-								<b>Some keywords about myself<br> Dedicated, positive, teamplayer, music
-									enthusiastic and passion for cooking.
+								<b>Some keywords about myself<br> Dedicated, positive,
+									teamplayer, music enthusiastic and passion for cooking.
 								</b>
 							</p>
 							<p>
-								If you have any questions or want to get to know me better. Do not hesitate to
-								contact me! Click on <a
+								If you have any questions or want to get to know me better. Do
+								not hesitate to contact me! Click on <a
 									href="mailto:michieldesmet1994@gmail.com?Subject=I%20would%20like%20to%20get%20in%20touch!"
-									target="_top">this link</a> to send me an email, and I will get in touch as soon
-								as possible!
+									target="_top">this link</a> to send me an email, and I will get
+								in touch as soon as possible!
 							</p>
 						</div>
 					</div>
@@ -96,15 +102,17 @@
 									<li>HTML / CSS</li>
 									<li>MySQL</li>
 									<li>XML</li>
+									<li>JSON</li>
 									<li>Hibernate (v2 and v5)</li>
 									<li>Spring (v5.2)</li>
 									<li>Spring Boot</li>
 									<li>REST protocol</li>
+									<li>SOAP protocol</li>
 									<li>IBM WebSphere</li>
 									<li>DB2</li>
 									<li>Selenium (v3.141.59)</li>
 									<li>Cucumber.io</li>
-									<li>JUnit (v4.12)</li>
+									<li>JUnit (v4.12 and v5)</li>
 									<li>Mockito (v2.10)</li>
 								</ul>
 							</div>
@@ -114,6 +122,7 @@
 								<h3>Tools</h3>
 								<ul class="fh5co-footer-links">
 									<li>Maven (v3.2)</li>
+									<li>Gradle (v6.2)</li>
 									<li>Jenkins (v2)</li>
 									<li>Postman</li>
 									<li>SonarQube</li>
@@ -130,6 +139,7 @@
 							<div class="feature-left">
 								<h3>Methodology</h3>
 								<ul class="fh5co-footer-links">
+									<li>OO Programming with UML Diagram</li>
 									<li>OOP (Object Oriented Programming)</li>
 									<li>BDD (Behaviour Driven Development)</li>
 									<li>TDD (Test Driven Development)</li>
@@ -148,44 +158,67 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							Junior Software Engineer - CZ <br> Tilburg The Netherlands
+							Junior Software Engineer - Axians <br> Merelbeke Belgium
 						</h3>
-						<p id="timeline-p">
-							Together with two other senior developers we were responsible for the maintenance
-							and implementation of new features for the debtor system at CZ. Part of my
-							responsibilities are, implementing new features for the system, resolve bugs,
-							research new possibilities and technologies which can be useful for the system.
-							Furthermore, I also write automated tests and teach other team members how to
-							create automated tests. Together with other team members we create feature files
-							for our BDD tests. <br> Before I want to start to code and solve a problem, I
-							want to completely understand the context and the user story. In order to get the
-							information I ask a colleague who has more knowledge of the subject if he/she could
-							provide me with this information. When I have a clear understanding of what needs
-							to be done, I create a draft of my plan of approach and discuss this solution with
-							a senior developer. Once the draft is approved I start and create the unit tests
-							which help me during the development process. Once the requirements are met, I do
-							an elaborate test to see if everything is working correctly. After this final test
-							of myself I ask another developer to do a code review.
+						<p id="timeline-p">Broadening Spring and Java knowledge during
+							the Corona Crisis with mainly self-study. This is done with
+							online courses (Udemy), reading blogs and a project to apply the
+							different concepts learned.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
-							01-06-2018 till present <br> Work
+							01-04-2020 till present <br> Work
 						</h4>
 					</div>
 				</li>
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							Junior Software Engineer - Spring Professional <br> Leusden - The Netherlands
+							Junior Software Engineer - CZ <br> Tilburg The Netherlands
 						</h3>
-						<p id="timeline-p">Together with two other colleagues we started to create a
-							password generator. With one click on the button a password was generated for the
-							user. The newly generated password is stored in a database. Plus a link is created
-							to the specific website and would save the username and password used to login.
-							Once the user is logged in he can manage all the generated passwords and change if
-							necessary or generate a new one. Besides this project, I took several courses to
-							get more knowledge on Java and MySQL. Also during this period I was still attending
-							the retraining program Make IT Work at the HVA in Amsterdam.
+						<p id="timeline-p">
+							Together with two other senior developers we were responsible for
+							the maintenance and implementation of new features for the debtor
+							system at CZ. Part of my responsibilities are, implementing new
+							features for the system, resolve bugs, research new possibilities
+							and technologies which can be useful for the system. Furthermore,
+							I also write automated tests and teach other team members how to
+							create automated tests. Together with other team members we
+							create feature files for our BDD tests. <br> Before I want
+							to start to code and solve a problem, I want to completely
+							understand the context and the user story. In order to get the
+							information I ask a colleague who has more knowledge of the
+							subject if he/she could provide me with this information. When I
+							have a clear understanding of what needs to be done, I create a
+							draft of my plan of approach and discuss this solution with a
+							senior developer. Once the draft is approved I start and create
+							the unit tests which help me during the development process. Once
+							the requirements are met, I do an elaborate test to see if
+							everything is working correctly. After this final test of myself
+							I ask another developer to do a code review.
+					</div>
+					<div class="timeline-time">
+						<h4 id="timeline-work">
+							01-06-2018 till 31-03-2020 <br> Work
+						</h4>
+					</div>
+				</li>
+				<li class="timeline-li">
+					<div class="timeline-content">
+						<h3 id="timeline-h3">
+							Junior Software Engineer - Spring Professional <br> Leusden
+							- The Netherlands
+						</h3>
+						<p id="timeline-p">Together with two other colleagues we
+							started to create a password generator. With one click on the
+							button a password was generated for the user. The newly generated
+							password is stored in a database. Plus a link is created to the
+							specific website and would save the username and password used to
+							login. Once the user is logged in he can manage all the generated
+							passwords and change if necessary or generate a new one. Besides
+							this project, I took several courses to get more knowledge on
+							Java and MySQL. Also during this period I was still attending the
+							retraining program Make IT Work at the HVA in Amsterdam.
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-work">
@@ -198,9 +231,9 @@
 						<h3 id="timeline-h3">
 							Make IT Work - HVA - Amsterdam <br> Retraining Program
 						</h3>
-						<p id="timeline-p">Courses: Databases - OOP - Data Structures - SCRUM -
-							Hibernate - Spring MVC - HTML5 - JSP - Requirement Engineering - Software
-							Engineering Tools
+						<p id="timeline-p">Courses: Databases - OOP - Data Structures
+							- SCRUM - Hibernate - Spring MVC - HTML5 - JSP - Requirement
+							Engineering - Software Engineering Tools
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -211,10 +244,12 @@
 				<li class="timeline-li">
 					<div class="timeline-content">
 						<h3 id="timeline-h3">
-							NHTV University of Applied Science - Breda <br> International Hotel Management
+							NHTV University of Applied Science - Breda <br>
+							International Hotel Management
 						</h3>
-						<p id="timeline-p">Courses: English - French - Imagineering - CRM - Accounting -
-							Event Management - Revenue Management - Strategic Management - Finance
+						<p id="timeline-p">Courses: English - French - Imagineering -
+							CRM - Accounting - Event Management - Revenue Management -
+							Strategic Management - Finance
 					</div>
 					<div class="timeline-time">
 						<h4 id="timeline-school">
@@ -222,7 +257,7 @@
 						</h4>
 					</div>
 				</li>
-				<div style="clear: both;" /></div>
+				<div style="clear: both;" />
 			</ul>
 		</div>
 
