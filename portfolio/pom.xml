@@ -15,7 +15,7 @@
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<!-- Versions of the dependencies -->
 		<javax.servlet.version>3.0.1</javax.servlet.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<spring.version>5.2.0.RELEASE</spring.version>
 		<jstl.api.version>1.2</jstl.api.version>
 		<log4j.version>2.5</log4j.version>
